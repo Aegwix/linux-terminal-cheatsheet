@@ -94,7 +94,11 @@ Très apprécié des développeurs et administrateurs systèmes, il permet une n
 - **Moins de documentation et de support en ligne que Bash** 🌐  
   ➝ La majorité des tutoriels et solutions en ligne sont orientés vers Bash.  
 
-### Comparaison
+### ⚔️ Comparaison : Bash vs Zsh  
+
+Bash et Zsh sont deux des **interpréteurs de commandes** les plus populaires sous Unix et Linux.  
+Ils permettent tous deux d’exécuter des commandes, de naviguer dans les fichiers et d’automatiser des tâches via des scripts.  
+Cependant, bien qu’ils partagent des bases communes, leurs différences en termes de **fonctionnalités, personnalisation et performances** peuvent influencer le choix de l’utilisateur.  
 
 ## Installation
 

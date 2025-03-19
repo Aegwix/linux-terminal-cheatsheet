@@ -5,11 +5,11 @@
 Un **terminal** est un outil qui permet d'interagir avec un système d'exploitation via des commandes textuelles, plutôt qu'à travers une interface graphique.
 Processus global lorsque vous tapez une commande:
 
-* __Saisie de la commande :__ Vous entrez une commande textuelle qui donne des instructions au système.
-* __Traitement :__ Le shell interprète cette commande et exécute les actions correspondantes (comme copier un fichier, afficher une liste de dossiers, etc.).
-* __Affichage du résultat :__ Le terminal retourne la réponse (ou un message d’erreur) basée sur la commande exécutée.
+* **Saisie de la commande :** Vous entrez une commande textuelle qui donne des instructions au système.
+* **Traitement :** Le shell interprète cette commande et exécute les actions correspondantes (comme copier un fichier, afficher une liste de dossiers, etc.).
+* **Affichage du résultat :** Le terminal retourne la réponse (ou un message d’erreur) basée sur la commande exécutée.
 
-<img src=https://www.linuxtricks.fr/upload/terminal-shell-prompt-commande.png alt="Structure du travail" allign="left" width="400">  
+<img src=<https://www.linuxtricks.fr/upload/terminal-shell-prompt-commande.png> alt="Structure du travail" allign="left" width="400">  
 
 **Utilisation des commandes dans le Terminal:**  
      1. Commencez par ouvrir le terminal.  
@@ -73,21 +73,21 @@ Processus global lorsque vous tapez une commande:
 
 ### ⚡ **Raccourcis clavier uniques à Bash**  
 
-| Raccourci   | Fonction                                                    |
+| Raccourci | Fonction |
 |------------|-------------------------------------------------------------|
-| `Ctrl + R`  | Recherche une commande dans l'historique en temps réel (reverse search) |
-| `Ctrl + G`  | Quitte la recherche dans l'historique (`Ctrl + R`) sans exécuter de commande |
-| `Ctrl + O`  | Exécute la commande trouvée via `Ctrl + R` sans la quitter de l'historique |
+| `Ctrl + R` | Recherche une commande dans l'historique en temps réel (reverse search) |
+| `Ctrl + G` | Quitte la recherche dans l'historique (`Ctrl + R`) sans exécuter de commande |
+| `Ctrl + O` | Exécute la commande trouvée via `Ctrl + R` sans la quitter de l'historique |
 | `Ctrl + X + E` | Ouvre l'éditeur de texte par défaut pour modifier la commande en cours |
 | `Ctrl + X + Ctrl + E` | Même fonction que `Ctrl + X + E` (compatible avec plus d'environnements) |
-| `Ctrl + T`  | Inverse l'ordre des deux derniers caractères tapés |
-| `Alt + .`   | Récupère le dernier argument de la commande précédente (équivalent à `!$`) |
-| `Alt + *`   | Développe un motif de fichier (`*.txt` devient tous les fichiers `.txt`) |
-| `Alt + U`   | Met en majuscule le mot sous le curseur |
-| `Alt + L`   | Met en minuscule le mot sous le curseur |
-| `Alt + C`   | Met la première lettre du mot sous le curseur en majuscule |
-| `Alt + T`   | Échange l’ordre des deux derniers mots tapés |
-| `Alt + D`   | Supprime le mot après le curseur |
+| `Ctrl + T` | Inverse l'ordre des deux derniers caractères tapés |
+| `Alt + .` | Récupère le dernier argument de la commande précédente (équivalent à ` !$`) |
+| `Alt + *` | Développe un motif de fichier (`*.txt` devient tous les fichiers `.txt`) |
+| `Alt + U` | Met en majuscule le mot sous le curseur |
+| `Alt + L` | Met en minuscule le mot sous le curseur |
+| `Alt + C` | Met la première lettre du mot sous le curseur en majuscule |
+| `Alt + T` | Échange l’ordre des deux derniers mots tapés |
+| `Alt + D` | Supprime le mot après le curseur |
 | `Alt + Backspace` | Supprime le mot avant le curseur |
 
 #### 💡 **Explications**
@@ -124,7 +124,7 @@ Processus global lorsque vous tapez une commande:
 |`0`|Ajouter une nouvelle ligne au-dessus de celle en cours et entrer en mode insertion.|
 |`x`| Supprimer le caractère sous le curseur.|
 |`dd`|Supprimer la ligne courante.|
-|`d$`| Supprimer du curseur jusqu’à| la fin de la ligne.|
+|`d$`| Supprimer du curseur jusqu’à la fin de la ligne.|
 |`d^`|Supprimer du curseur jusqu’au début de la ligne.|
 |`u`| Annuler la dernière modification.|
 |`Ctrl + r`| Refaire une modification annulée.|
@@ -151,7 +151,7 @@ Processus global lorsque vous tapez une commande:
 |`:wq` ou `ZZ`| Sauvegarder et quitter.|
 |`:q!`| Quitter sans sauvegarder.|
 |`:e nom_fichier`| Ouvrir un fichier.|
-|`:n`| Passer au fichier suivant (si plusieurs fichiers sont ouverts)|.
+|`:n`| Passer au fichier suivant (si plusieurs fichiers sont ouverts)|
 |`:!commande`|Exécuter une commande shell (ex. :!ls).|
 
 #### Gestion des fenêtres
@@ -168,34 +168,25 @@ Processus global lorsque vous tapez une commande:
 
 ### Nano
 
-| Raccourci             | Fonction                                                    |
-|----------------------|-------------------------------------------------------------|
-| `Ctrl + G`           | Affiche l'aide de Nano                                      |
-| `Ctrl + X`           | Quitte l'éditeur (avec confirmation si des modifications ont été faites) |
-| `Ctrl + O`           | Sauvegarde le fichier sans quitter                          |
-| `Ctrl + R`           | Insère un fichier dans le texte en cours                    |
-| `Ctrl + W`           | Recherche un mot ou une phrase dans le fichier              |
-| `Ctrl + K`           | Coupe la ligne courante                                     |
-| `Ctrl + U`           | Colle la dernière ligne coupée                              |
-| `Ctrl + J`           | Justifie le paragraphe (alignement du texte)               |
-| `Ctrl + T`           | Vérifie l'orthographe (si un correcteur est installé)       |
-| `Ctrl + C`           | Affiche le numéro de ligne et de colonne du curseur        |
-| `Ctrl + _` (Ctrl + Shift + -) | Se déplace vers une ligne et une colonne spécifiques |
-| `Alt + U`            | Annule la dernière action                                   |
-| `Alt + E`            | Refait l’action annulée                                     |
-| `Alt + 6`            | Copie la ligne courante                                     |
-| `Alt + V`            | Permet de faire défiler l'écran vers le haut               |
-| `Alt + ]`            | Se déplace vers la prochaine parenthèse fermante `)` ou `]` |
-| `Alt + [ `           | Se déplace vers la parenthèse ouvrante précédente `(` ou `[` |
-
-### 🔍 **Explications** :
-- **`Ctrl + O`** : Sauvegarde rapidement sans quitter l’éditeur.  
-- **`Ctrl + W`** : Très utile pour rechercher un mot dans un fichier.  
-- **`Ctrl + K` & `Ctrl + U`** : Fonctionnent comme un couper-coller rapide.  
-- **`Alt + U` & `Alt + E`** : Ajoutent une fonctionnalité d’annulation et de rétablissement (très pratique !).  
-- **`Alt + 6`** : Permet de copier sans couper, contrairement à `Ctrl + K`.  
-- **`Ctrl + _`** : Permet d'aller directement à une ligne précise, super utile pour les longues éditions !   
-
+| Raccourci | Fonction |
+|---|---|
+| `Ctrl + G` | Affiche l'aide de Nano |
+| `Ctrl + X` | Quitte l'éditeur (avec confirmation si des modifications ont été faites) |
+| `Ctrl + O` | Sauvegarde le fichier sans quitter |
+| `Ctrl + R` | Insère un fichier dans le texte en cours |
+| `Ctrl + W` | Recherche un mot ou une phrase dans le fichier |
+| `Ctrl + K` | Coupe la ligne courante |
+| `Ctrl + U` | Colle la dernière ligne coupée |
+| `Ctrl + J` | Justifie le paragraphe (alignement du texte) |
+| `Ctrl + T` | Vérifie l'orthographe (si un correcteur est installé) |
+| `Ctrl + C` | Affiche le numéro de ligne et de colonne du curseur |
+| `Ctrl + _` | Se déplace vers une ligne et une colonne spécifiques |
+| `Alt + U` | Annule la dernière action |
+| `Alt + E` | Refait l’action annulée |
+| `Alt + 6` | Copie la ligne courante |
+| `Alt + V` | Permet de faire défiler l'écran vers le haut |
+| `Alt + ]` | Se déplace vers la prochaine parenthèse fermante `)` ou `]` |
+| `Alt + [` | Se déplace vers la parenthèse ouvrante précédente `(` ou `[` |
 
 ## Commandes
 
@@ -254,20 +245,20 @@ Processus global lorsque vous tapez une commande:
 
 ### 🛠️ **Commandes uniques à Bash**
 
-| Commande                      | Fonction                                                    |
-|-------------------------------|-------------------------------------------------------------|
-| `alias <nom_alias>='<commande>'` | Crée un alias pour une commande                             |
-| `unalias <nom_alias>`          | Supprime un alias                                           |
-| `history`                      | Affiche l'historique des commandes précédentes              |
-| `!!`                           | Réexécute la dernière commande                              |
-| `!<num>`                       | Exécute la commande correspondant au numéro `<num>` dans l'historique |
-| `export <variable>=<valeur>`   | Crée une variable d'environnement (partagée entre processus)|
-| `source <fichier>`             | Exécute un script dans le shell courant sans ouvrir un nouveau processus |
-| `printf "<format>"`            | Affiche un texte formaté (plus puissant que `echo`)          |
-| `set`                          | Affiche ou définit des variables d'environnement ou des options de shell |
-| `declare`                      | Permet de déclarer des variables avec des attributs (ex : `-a` pour tableau) |
-| `exec <commande>`              | Remplace le processus actuel par un autre sans créer un nouveau shell |
-| `test <condition>`             | Évalue une condition (ex : comparaison de chaînes, fichiers)|
+| Commande | Fonction |
+|---|---|
+| `alias <nom_alias>='<commande>'` | Crée un alias pour une commande |
+| `unalias <nom_alias>` | Supprime un alias |
+| `history` | Affiche l'historique des commandes précédentes |
+| `!!` | Réexécute la dernière commande |
+| `!<num>` | Exécute la commande correspondant au numéro `<num>` dans l'historique |
+| `export <variable>=<valeur>` | Crée une variable d'environnement (partagée entre processus) |
+| `source <fichier>` | Exécute un script dans le shell courant sans ouvrir un nouveau processus |
+| `printf "<format>"` | Affiche un texte formaté (plus puissant que `echo`) |
+| `set` | Affiche ou définit des variables d'environnement ou des options de shell |
+| `declare` | Permet de déclarer des variables avec des attributs (ex : `-a` pour tableau) |
+| `exec <commande>` | Remplace le processus actuel par un autre sans créer un nouveau shell |
+| `test <condition>` | Évalue une condition (ex : comparaison de chaînes, fichiers) |
 
 ### Zsh
 
@@ -286,10 +277,6 @@ Processus global lorsque vous tapez une commande:
 | `touch nom du fichier`  | Créer un fichier vide |
 | `cat nom du fichier`  | Afficher le contenu d'un fichier |
 | `nano nom du fichier`  | Éditer un fichier avec Nano |
-
-### Vim
-
-### Nano
 
 ## Bash vs Zsh
 
@@ -420,7 +407,7 @@ Dans l’ensemble, **Zsh est un excellent choix pour ceux qui passent beaucoup d
 
 ## Installation
 
-| Outils | Debian/Ubuntu <br>(`apt`) | Arch Linux <br>(`pacman`) | Documentation |
+| Outils | Debian/Ubuntu (`apt`) | Arch Linux  (`pacman`) | Documentation |
 | ------ | --- | --- | --- |
 | **Bash** | `sudo apt install bash` | `sudo pacman -S bash` | [Documentation Bash](https://www.gnu.org/doc/doc.html) |
 | **Zsh** | `sudo apt install zsh` | `sudo pacman -S zsh` | [Documentation Zsh](https://zsh.sourceforge.io/Doc/) |

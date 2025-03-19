@@ -28,9 +28,7 @@
 | `unalias <nom_alias>`          | Supprime un alias                                           |
 | `history`                      | Affiche l'historique des commandes précédentes              |
 | `!!`                           | Réexécute la dernière commande                              |
-| `!<num>`                       | Exécute la commande correspondant au numéro `<num>` dans l'historique |
-| `Ctrl + R`                     | Recherche dans l'historique de commandes (reverse search)   |
-| `Ctrl + L`                     | Efface l'écran (équivalent à `clear`)                       |
+| `!<num>`                       | Exécute la commande correspondant au numéro `<num>` dans l'historique |                      |
 | `export <variable>=<valeur>`   | Crée une variable d'environnement (partagée entre processus)|
 | `source <fichier>`             | Exécute un script dans le shell courant sans ouvrir un nouveau processus |
 | `printf "<format>"`            | Affiche un texte formaté (plus puissant que `echo`)          |

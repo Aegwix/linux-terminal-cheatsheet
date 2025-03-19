@@ -34,6 +34,7 @@
 
 ### Zsh
 
+
 #### Introduction à Zsh
 
 Zsh est un interpréteur de commandes interactif et puissant utilisé dans les environnements Unix et Linux. Il offre une expérience fluide et efficace grâce à ses nombreuses fonctionnalités avancées. 
@@ -93,6 +94,7 @@ Très apprécié des développeurs et administrateurs systèmes, il permet une n
 
 - **Moins de documentation et de support en ligne que Bash** 🌐  
   ➝ La majorité des tutoriels et solutions en ligne sont orientés vers Bash.  
+
 
 ### Comparaison
 

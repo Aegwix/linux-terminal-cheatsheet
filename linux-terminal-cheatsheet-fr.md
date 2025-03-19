@@ -46,7 +46,23 @@ __Utilisation des commandes dans le Terminal:__
 
 ### Terminal
 
-### Bash
+### 🛠️ **Commandes uniques à Bash**
+
+| Commande                      | Fonction                                                    |
+|-------------------------------|-------------------------------------------------------------|
+| `alias <nom_alias>='<commande>'` | Crée un alias pour une commande                             |
+| `unalias <nom_alias>`          | Supprime un alias                                           |
+| `history`                      | Affiche l'historique des commandes précédentes              |
+| `!!`                           | Réexécute la dernière commande                              |
+| `!<num>`                       | Exécute la commande correspondant au numéro `<num>` dans l'historique |                      |
+| `export <variable>=<valeur>`   | Crée une variable d'environnement (partagée entre processus)|
+| `source <fichier>`             | Exécute un script dans le shell courant sans ouvrir un nouveau processus |
+| `printf "<format>"`            | Affiche un texte formaté (plus puissant que `echo`)          |
+| `set`                          | Affiche ou définit des variables d'environnement ou des options de shell |
+| `declare`                      | Permet de déclarer des variables avec des attributs (ex : `-a` pour tableau) |
+| `exec <commande>`              | Remplace le processus actuel par un autre sans créer un nouveau shell |
+| `test <condition>`             | Évalue une condition (ex : comparaison de chaînes, fichiers)|
+
 
 ### Zsh
 

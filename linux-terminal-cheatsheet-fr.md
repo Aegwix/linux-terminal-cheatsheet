@@ -100,6 +100,21 @@ Bash et Zsh sont deux des **interpréteurs de commandes** les plus populaires so
 Ils permettent tous deux d’exécuter des commandes, de naviguer dans les fichiers et d’automatiser des tâches via des scripts.  
 Cependant, bien qu’ils partagent des bases communes, leurs différences en termes de **fonctionnalités, personnalisation et performances** peuvent influencer le choix de l’utilisateur.  
 
+#### 🛠️ **Fonctionnalités principales**  
+
+| Fonctionnalité          | Bash ✅ | Zsh ✅ |
+|-------------------------|--------|--------|
+| Autocomplétion          | Basique | Avancée (suggestions dynamiques) |
+| Correction automatique  | ❌ Non  | ✅ Oui (corrige les fautes de frappe) |
+| Personnalisation       | Limitée | Très avancée avec **Oh My Zsh** |
+| Gestion de l’historique | Standard | ✅ Améliorée (suppression des doublons, partage entre sessions) |
+| Navigation rapide       | ❌ Non | ✅ Oui (*plugin z*, **cd amélioré**) |
+| Séparation `$PATH`      | ❌ Non | ✅ Oui (*géré en tableau*, facilite l’édition) |
+| Scripts Bash            | ✅ Oui | ✅ Oui (*compatible avec Bash*) |
+| Gestion des processus   | ✅ Oui | ✅ Oui |
+| Installation par défaut | ✅ Oui (Linux/macOS) | ❌ Non (doit être installé manuellement) |
+
+
 ## Installation
 
 ### Bash

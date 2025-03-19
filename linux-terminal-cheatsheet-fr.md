@@ -70,7 +70,31 @@ Processus global lorsque vous tapez une commande:
 | `Ctrl + Shift + V` | Colle du texte copié |
 | `Alt + .` | Répète le dernier argument de la commande précédente |
 
-### Bash
+### ⚡ **Raccourcis clavier uniques à Bash**  
+
+| Raccourci   | Fonction                                                    |
+|------------|-------------------------------------------------------------|
+| `Ctrl + R`  | Recherche une commande dans l'historique en temps réel (reverse search) |
+| `Ctrl + G`  | Quitte la recherche dans l'historique (`Ctrl + R`) sans exécuter de commande |
+| `Ctrl + O`  | Exécute la commande trouvée via `Ctrl + R` sans la quitter de l'historique |
+| `Ctrl + X + E` | Ouvre l'éditeur de texte par défaut pour modifier la commande en cours |
+| `Ctrl + X + Ctrl + E` | Même fonction que `Ctrl + X + E` (compatible avec plus d'environnements) |
+| `Ctrl + T`  | Inverse l'ordre des deux derniers caractères tapés |
+| `Alt + .`   | Récupère le dernier argument de la commande précédente (équivalent à `!$`) |
+| `Alt + *`   | Développe un motif de fichier (`*.txt` devient tous les fichiers `.txt`) |
+| `Alt + U`   | Met en majuscule le mot sous le curseur |
+| `Alt + L`   | Met en minuscule le mot sous le curseur |
+| `Alt + C`   | Met la première lettre du mot sous le curseur en majuscule |
+| `Alt + T`   | Échange l’ordre des deux derniers mots tapés |
+| `Alt + D`   | Supprime le mot après le curseur |
+| `Alt + Backspace` | Supprime le mot avant le curseur |
+
+#### 💡 **Explications**
+
+* **`Ctrl + R`** et **`Ctrl + O`** : Hyper pratiques pour retrouver et exécuter des commandes passées.  
+* **`Alt + .`** : Un gain de temps énorme pour réutiliser des arguments sans retaper toute la commande.  
+* **`Ctrl + X + E`** : Permet d'éditer une commande complexe avant de l’exécuter.  
+* **`Alt + T` et `Ctrl + T`** : Corrigent rapidement l'ordre des mots ou caractères mal tapés.  
 
 ### Zsh
 
@@ -96,6 +120,7 @@ Processus global lorsque vous tapez une commande:
 ### Terminal
 
 ## 📂 Fichiers et Dossiers
+
 | Commande | Description |
 |----------|-------------|
 | `ls` | Liste les fichiers |
@@ -107,18 +132,21 @@ Processus global lorsque vous tapez une commande:
 | `mv <source> <dest>` | Déplace ou renomme |
 
 ## 📜 Affichage et Édition de Fichiers
+
 | Commande | Description |
 |----------|-------------|
 | `cat <fichier>` | Affiche le contenu |
 | `less <fichier>` | Lecture paginée |
 
 ## 🔍 Recherche
+
 | Commande | Description |
 |----------|-------------|
 | `find <dossier> -name <nom>` | Recherche un fichier |
 | `grep <mot> <fichier>` | Recherche un mot dans un fichier |
 
 ## 📡 Réseau
+
 | Commande | Description |
 |----------|-------------|
 | `ping <adresse>` | Vérifie la connexion |
@@ -126,6 +154,7 @@ Processus global lorsque vous tapez une commande:
 | `curl <URL>` | Récupère une page web |
 
 ## 🛑 Système
+
 | Commande | Description |
 |----------|-------------|
 | `shutdown -h now` | Arrête le système |
@@ -134,6 +163,7 @@ Processus global lorsque vous tapez une commande:
 | `free -h` | Mémoire utilisée |
 
 ## 📦 Gestion des Paquets (Ubuntu/Debian)
+
 | Commande | Description |
 |----------|-------------|
 | `sudo apt update && apt upgrade` | Met à jour le système |
@@ -158,6 +188,22 @@ Processus global lorsque vous tapez une commande:
 | `test <condition>`             | Évalue une condition (ex : comparaison de chaînes, fichiers)|
 
 ### Zsh
+
+| **Commande**  | **Description** |
+|--------------|----------------|
+| `echo "texte"`  | Afficher du texte à l'écran |
+| `cd`  | Changer de répertoire |
+| `pwd`  | Afficher le répertoire actuel |
+| `ls`  | Lister les fichiers et dossiers |
+| `mkdir nom_dossier`  | Créer un nouveau dossier |
+| `rmdir nom_dossier`  | Supprimer un dossier vide |
+| `rm nom du fichier`  | Supprimer un fichier |
+| `rm -r nom du dossier`  | Supprimer un dossier et son contenu |
+| `cp nom du fichier destination`  | Copier un fichier |
+| `mv nom du fichier destination`  | Déplacer ou renommer un fichier |
+| `touch nom du fichier`  | Créer un fichier vide |
+| `cat nom du fichier`  | Afficher le contenu d'un fichier |
+| `nano nom du fichier`  | Éditer un fichier avec Nano |
 
 ### Vim
 

@@ -114,6 +114,18 @@ Cependant, bien qu’ils partagent des bases communes, leurs différences en ter
 | Gestion des processus   | ✅ Oui | ✅ Oui |
 | Installation par défaut | ✅ Oui (Linux/macOS) | ❌ Non (doit être installé manuellement) |
 
+#### 🎯 **Verdict argumenté**  
+
+Le choix entre **Bash et Zsh** dépend essentiellement des **besoins et préférences de l’utilisateur**.  
+
+- **Si l’objectif est la compatibilité maximale et la simplicité**, Bash est suffisant. Il est **déjà installé** sur la plupart des systèmes et bénéficie d’une **documentation extrêmement riche**.  
+- **Si l’on recherche une expérience plus moderne, interactive et ergonomique**, Zsh est une alternative plus attrayante.  
+- **Dans un contexte professionnel**, Zsh peut offrir un **gain de productivité** non négligeable grâce à son **autocomplétion avancée, sa gestion optimisée de l’historique et ses plugins**.  
+
+Cependant, bien que Zsh offre plus de fonctionnalités, **il demande une configuration initiale** pour en tirer pleinement parti. Pour un utilisateur occasionnel, cette personnalisation peut **ne pas être nécessaire**.  
+
+Dans l’ensemble, **Zsh est un excellent choix pour ceux qui passent beaucoup de temps dans le terminal**, tandis que Bash reste une valeur sûre pour son **universalité et sa simplicité d’utilisation**.  
+
 
 ## Installation
 

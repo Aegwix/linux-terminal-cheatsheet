@@ -45,8 +45,6 @@ __Utilisation des commandes dans le Terminal:__
 - **`Ctrl + X + E`** : Permet d'éditer une commande complexe avant de l’exécuter.  
 - **`Alt + T` et `Ctrl + T`** : Corrigent rapidement l'ordre des mots ou caractères mal tapés.  
 
-Ces raccourcis **uniques à Bash** sont ultra utiles pour accélérer la navigation et l'édition dans le terminal. Dis-moi si tu veux en ajouter d'autres ! 🚀  
-
 ### Zsh
 
 | **Raccourci**  | **Description** |

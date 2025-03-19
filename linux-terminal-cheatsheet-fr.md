@@ -65,6 +65,7 @@ __Utilisation des commandes dans le Terminal:__
 
 
 ### Zsh
+
 | **Commande**  | **Description** |
 |--------------|----------------|
 | `echo "texte"`  | Afficher du texte à l'écran |
@@ -80,6 +81,7 @@ __Utilisation des commandes dans le Terminal:__
 | `touch nom du fichier`  | Créer un fichier vide |
 | `cat nom du fichier`  | Afficher le contenu d'un fichier |
 | `nano nom du fichier`  | Éditer un fichier avec Nano |
+
 ### Vim
 
 ### Nano

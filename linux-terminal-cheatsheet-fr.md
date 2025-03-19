@@ -113,7 +113,35 @@ Processus global lorsque vous tapez une commande:
 
 ### Vim
 
-### Nano
+### ✏️ **Raccourcis clavier uniques à Nano**  
+
+| Raccourci             | Fonction                                                    |
+|----------------------|-------------------------------------------------------------|
+| `Ctrl + G`           | Affiche l'aide de Nano                                      |
+| `Ctrl + X`           | Quitte l'éditeur (avec confirmation si des modifications ont été faites) |
+| `Ctrl + O`           | Sauvegarde le fichier sans quitter                          |
+| `Ctrl + R`           | Insère un fichier dans le texte en cours                    |
+| `Ctrl + W`           | Recherche un mot ou une phrase dans le fichier              |
+| `Ctrl + K`           | Coupe la ligne courante                                     |
+| `Ctrl + U`           | Colle la dernière ligne coupée                              |
+| `Ctrl + J`           | Justifie le paragraphe (alignement du texte)               |
+| `Ctrl + T`           | Vérifie l'orthographe (si un correcteur est installé)       |
+| `Ctrl + C`           | Affiche le numéro de ligne et de colonne du curseur        |
+| `Ctrl + _` (Ctrl + Shift + -) | Se déplace vers une ligne et une colonne spécifiques |
+| `Alt + U`            | Annule la dernière action                                   |
+| `Alt + E`            | Refait l’action annulée                                     |
+| `Alt + 6`            | Copie la ligne courante                                     |
+| `Alt + V`            | Permet de faire défiler l'écran vers le haut               |
+| `Alt + ]`            | Se déplace vers la prochaine parenthèse fermante `)` ou `]` |
+| `Alt + [ `           | Se déplace vers la parenthèse ouvrante précédente `(` ou `[` |
+
+### 🔍 **Explications** :
+- **`Ctrl + O`** : Sauvegarde rapidement sans quitter l’éditeur.  
+- **`Ctrl + W`** : Très utile pour rechercher un mot dans un fichier.  
+- **`Ctrl + K` & `Ctrl + U`** : Fonctionnent comme un couper-coller rapide.  
+- **`Alt + U` & `Alt + E`** : Ajoutent une fonctionnalité d’annulation et de rétablissement (très pratique !).  
+- **`Alt + 6`** : Permet de copier sans couper, contrairement à `Ctrl + K`.  
+- **`Ctrl + _`** : Permet d'aller directement à une ligne précise, super utile pour les longues éditions !   
 
 ## Commandes
 

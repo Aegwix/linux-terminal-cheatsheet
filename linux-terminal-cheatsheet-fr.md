@@ -65,7 +65,21 @@ __Utilisation des commandes dans le Terminal:__
 
 
 ### Zsh
-
+| **Commande**  | **Description** |
+|--------------|----------------|
+| `echo "texte"`  | Afficher du texte à l'écran |
+| `cd`  | Changer de répertoire |
+| `pwd`  | Afficher le répertoire actuel |
+| `ls`  | Lister les fichiers et dossiers |
+| `mkdir nom_dossier`  | Créer un nouveau dossier |
+| `rmdir nom_dossier`  | Supprimer un dossier vide |
+| `rm nom du fichier`  | Supprimer un fichier |
+| `rm -r nom du dossier`  | Supprimer un dossier et son contenu |
+| `cp nom du fichier destination`  | Copier un fichier |
+| `mv nom du fichier destination`  | Déplacer ou renommer un fichier |
+| `touch nom du fichier`  | Créer un fichier vide |
+| `cat nom du fichier`  | Afficher le contenu d'un fichier |
+| `nano nom du fichier`  | Éditer un fichier avec Nano |
 ### Vim
 
 ### Nano

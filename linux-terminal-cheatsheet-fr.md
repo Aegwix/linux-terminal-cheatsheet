@@ -73,21 +73,21 @@ Processus global lorsque vous tapez une commande:
 
 ### ⚡ **Raccourcis clavier uniques à Bash**  
 
-| Raccourci   | Fonction                                                    |
+| Raccourci | Fonction |
 |------------|-------------------------------------------------------------|
-| `Ctrl + R`  | Recherche une commande dans l'historique en temps réel (reverse search) |
-| `Ctrl + G`  | Quitte la recherche dans l'historique (`Ctrl + R`) sans exécuter de commande |
-| `Ctrl + O`  | Exécute la commande trouvée via `Ctrl + R` sans la quitter de l'historique |
+| `Ctrl + R` | Recherche une commande dans l'historique en temps réel (reverse search) |
+| `Ctrl + G` | Quitte la recherche dans l'historique (`Ctrl + R`) sans exécuter de commande |
+| `Ctrl + O` | Exécute la commande trouvée via `Ctrl + R` sans la quitter de l'historique |
 | `Ctrl + X + E` | Ouvre l'éditeur de texte par défaut pour modifier la commande en cours |
 | `Ctrl + X + Ctrl + E` | Même fonction que `Ctrl + X + E` (compatible avec plus d'environnements) |
-| `Ctrl + T`  | Inverse l'ordre des deux derniers caractères tapés |
-| `Alt + .`   | Récupère le dernier argument de la commande précédente (équivalent à `!$`) |
-| `Alt + *`   | Développe un motif de fichier (`*.txt` devient tous les fichiers `.txt`) |
-| `Alt + U`   | Met en majuscule le mot sous le curseur |
-| `Alt + L`   | Met en minuscule le mot sous le curseur |
-| `Alt + C`   | Met la première lettre du mot sous le curseur en majuscule |
-| `Alt + T`   | Échange l’ordre des deux derniers mots tapés |
-| `Alt + D`   | Supprime le mot après le curseur |
+| `Ctrl + T` | Inverse l'ordre des deux derniers caractères tapés |
+| `Alt + .` | Récupère le dernier argument de la commande précédente (équivalent à ` !$`) |
+| `Alt + *` | Développe un motif de fichier (`*.txt` devient tous les fichiers `.txt`) |
+| `Alt + U` | Met en majuscule le mot sous le curseur |
+| `Alt + L` | Met en minuscule le mot sous le curseur |
+| `Alt + C` | Met la première lettre du mot sous le curseur en majuscule |
+| `Alt + T` | Échange l’ordre des deux derniers mots tapés |
+| `Alt + D` | Supprime le mot après le curseur |
 | `Alt + Backspace` | Supprime le mot avant le curseur |
 
 #### 💡 **Explications**
@@ -407,7 +407,7 @@ Dans l’ensemble, **Zsh est un excellent choix pour ceux qui passent beaucoup d
 
 ## Installation
 
-| Outils | Debian/Ubuntu <br>(`apt`) | Arch Linux <br>(`pacman`) | Documentation |
+| Outils | Debian/Ubuntu (`apt`) | Arch Linux  (`pacman`) | Documentation |
 | ------ | --- | --- | --- |
 | **Bash** | `sudo apt install bash` | `sudo pacman -S bash` | [Documentation Bash](https://www.gnu.org/doc/doc.html) |
 | **Zsh** | `sudo apt install zsh` | `sudo pacman -S zsh` | [Documentation Zsh](https://zsh.sourceforge.io/Doc/) |

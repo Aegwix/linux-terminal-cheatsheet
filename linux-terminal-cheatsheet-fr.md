@@ -1,6 +1,7 @@
 # Linux Terminal Cheatsheet - FR
 
 ## Présentation du terminal
+
 Un **terminal** est un outil qui permet d'interagir avec un système d'exploitation via des commandes textuelles, plutôt qu'à travers une interface graphique.
 Processus global lorsque vous tapez une commande:
 * __Saisie de la commande :__ Vous entrez une commande textuelle qui donne des instructions au système.
@@ -19,6 +20,50 @@ __Utilisation des commandes dans le Terminal:__
 ## Raccourcis
 
 ### Terminal
+
+#### 📌 Contrôle de base
+| Raccourci | Description |
+|-----------|-------------|
+| `Ctrl + C` | Arrête le processus en cours |
+| `Ctrl + Z` | Suspend le processus en cours |
+| `Ctrl + D` | Ferme le terminal ou termine une session |
+| `Ctrl + L` | Efface l'écran du terminal (équivalent à `clear`) |
+
+#### 🕵️ Navigation dans les commandes
+| Raccourci | Description |
+|-----------|-------------|
+| `Ctrl + A` | Déplace le curseur au début de la ligne |
+| `Ctrl + E` | Déplace le curseur à la fin de la ligne |
+| `Ctrl + U` | Supprime tout avant le curseur |
+| `Ctrl + K` | Supprime tout après le curseur |
+| `Ctrl + W` | Supprime le mot avant le curseur |
+| `Alt + B` | Déplace le curseur d'un mot en arrière |
+| `Alt + F` | Déplace le curseur d'un mot en avant |
+
+#### 🔄 Historique des commandes
+| Raccourci | Description |
+|-----------|-------------|
+| `Ctrl + R` |  Recherche une commande dans l'historique interactif |
+| `↑` / `↓` | Navigue dans l'historique des commandes |
+| `!n` | Exécute la commande numéro `n` de l'historique |
+| `!!` | Réexécute la dernière commande |
+| `!string` | Exécute la dernière commande contenant `string` |
+
+#### 📂 Manipulation des fenêtres de terminal
+| Raccourci | Description |
+|-----------|-------------|
+| `Ctrl + Shift + T` | Ouvre un nouvel onglet dans le terminal |
+| `Ctrl + Shift + W` | Ferme l'onglet actuel |
+| `Ctrl + Shift + N` | Ouvre une nouvelle fenêtre de terminal |
+| `Ctrl + PageUp/PageDown` | Change d'onglet |
+
+#### 📑 Autres astuces utiles
+| Raccourci | Description |
+|-----------|-------------|
+| `Tab` | Auto-complétion de commande/fichier |
+| `Ctrl + Shift + C` | Copie du texte sélectionné |
+| `Ctrl + Shift + V` | Colle du texte copié |
+| `Alt + .` | Répète le dernier argument de la commande précédente |
 
 ### Bash
 

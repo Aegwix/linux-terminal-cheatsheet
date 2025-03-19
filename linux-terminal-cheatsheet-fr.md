@@ -16,7 +16,7 @@ __Utilisation des commandes dans le Terminal:__
 
 ## Table des matières
 
-## Raccourcis
+## ⌨ Raccourcis
 
 ### Terminal
 
@@ -48,6 +48,20 @@ __Utilisation des commandes dans le Terminal:__
 Ces raccourcis **uniques à Bash** sont ultra utiles pour accélérer la navigation et l'édition dans le terminal. Dis-moi si tu veux en ajouter d'autres ! 🚀  
 
 ### Zsh
+
+| **Raccourci**  | **Description** |
+|---------------|----------------|
+| `Ctrl + A`   | Aller au **début** de la ligne |
+| `Ctrl + E`   | Aller à la **fin** de la ligne |
+| `Alt + F`    | Aller au **mot suivant** |
+| `Alt + B`    | Aller au **mot précédent** |
+| `Ctrl + U`   | **Supprimer** tout avant le curseur |
+| `Ctrl + K`   | **Supprimer** tout après le curseur |
+| `Ctrl + W`   | Supprimer le **mot précédent** |
+| `↑ (Flèche Haut)`  | Revenir à la **commande précédente** |
+| `↓ (Flèche Bas)`   | Aller à la **commande suivante** |
+| `!!`        | Exécuter la **dernière commande** |
+
 
 ### Vim
 

@@ -9,7 +9,9 @@ Processus global lorsque vous tapez une commande:
 * **Traitement :** Le shell interprète cette commande et exécute les actions correspondantes (comme copier un fichier, afficher une liste de dossiers, etc.).
 * **Affichage du résultat :** Le terminal retourne la réponse (ou un message d’erreur) basée sur la commande exécutée.
 
-<img src="https://www.linuxtricks.fr/upload/terminal-shell-prompt-commande.png" alt="Structure du travail" allign="center" width="400">  
+```html
+<img src="https://www.linuxtricks.fr/upload/terminal-shell-prompt-commande.png" alt="Structure du travail" width="400" align='center'>  
+```
 
 **Utilisation des commandes dans le Terminal:**  
      1. Commencez par ouvrir le terminal.  
@@ -49,7 +51,7 @@ Processus global lorsque vous tapez une commande:
 * [Configuration](#configuration)
   * [Bash et Zsh](#bash-and-zsh)
   * [Vim and Nano](#vim-and-nano)
-    * [Configuration Vim](#configuration-vim)
+    * [Configuration Vim](#configuring-vim)
     * [Configuration Nano](#configuring-nano)
 
 ## Terminal

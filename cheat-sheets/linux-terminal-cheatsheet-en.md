@@ -55,7 +55,7 @@ Here's how it usually works:
 
 ## Terminal
 
- <img src="img/Untitled.jpeg" alt="Structure du travail" width="100" align='center'> 
+ <img src="img/Untitled.jpeg" alt="Structure du travail" width="100" align='center'>
 
 ### Terminal Shortcuts
 
@@ -107,140 +107,6 @@ Here's how it usually works:
 | `Ctrl + Shift + C` | Copies selected text |
 | `Ctrl + Shift + V` | Pastes copied text |
 | `Alt + .` | Repeats the last argument of the previous command |
-### About Zsh
-
-#### Zsh Introduction
-
-Like Bash, Zsh is a powerful interactive command interpreter. It is used in Unix and Linux environments and offers a smooth and efficient experience thanks to its many advanced features.  
-It is highly appreciated by developers and system administrators as it allows fast navigation and extensive terminal customization.
-
-#### Zsh Strong Points
-
-* **Smart Auto-completion** 🎯  
-  ➝ Dynamic suggestions for commands and options.
-
-* **Auto-correction** 🔍  
-  ➝ Detects and corrects typos by suggesting the correct command.
-
-* **Advanced Customization** 🎨  
-  ➝ Themes and plugins via **Oh My Zsh** for an optimized and stylish terminal.
-
-* **Enhanced Command History Management** 📜  
-  ➝ Quick search for previous commands and removal of duplicates.
-
-* **Ultra-fast Navigation** 🚀  
-  ➝ **z** plugin for instant access to the most frequently used directories.
-
-* **Powerful Aliases and Shortcuts** ⚡  
-  ➝ Create short commands to speed up task execution.
-
-* **Bash Compatibility** 🔄  
-  ➝ Runs existing Bash scripts without issues.
-
-* **Separated `$PATH` Management** 📁  
-  ➝ `$PATH` is handled as an array (`$path`), making it easier to manage.
-
-#### Zsh Weak Points
-
-* **Higher Resource Consumption** 🖥️  
-  ➝ More memory-intensive than Bash, especially with **Oh My Zsh** and multiple plugins enabled.
-
-* **Longer Startup Time** ⏳  
-  ➝ Can slow down on launch if too many heavy plugins or themes are loaded.
-
-* **Imperfect Compatibility with Some Scripts** ⚠️  
-  ➝ Some scripts specifically written for Bash may require adjustments.
-
-* **More Complex Configuration** 🔧  
-  ➝ Requires more customization to fully take advantage of its features.
-
-* **Dependency on Oh My Zsh for Beginners** 🏗️  
-  ➝ Many popular features require additional frameworks.
-
-* **Less Native Support on Some Systems** 📦  
-  ➝ Not installed by default on all Linux distributions and macOS (requires manual installation).
-
-* **Longer Learning Curve for Beginners** 📘  
-  ➝ Many advanced options and commands can be overwhelming at first.
-
-* **Potential Conflicts with Bash** 🔄  
-  ➝ Can cause errors if some Bash configurations are incompatible with Zsh.
-
-* **Less Online Documentation and Support than Bash** 🌐  
-  ➝ Most tutorials and online solutions are geared towards Bash.
-
-### Comparison: Bash vs Zsh  
-
-Bash and Zsh are two of the most popular **command interpreters** on Unix and Linux.  
-Both allow users to exe### About Zsh
-
-#### Zsh Introduction
-
-Like Bash, Zsh is a powerful interactive command interpreter. It is used in Unix and Linux environments and offers a smooth and efficient experience thanks to its many advanced features.  
-It is highly appreciated by developers and system administrators as it allows fast navigation and extensive terminal customization.
-
-#### Zsh Strong Points
-
-* **Smart Auto-completion** 🎯  
-  ➝ Dynamic suggestions for commands and options.
-
-* **Auto-correction** 🔍  
-  ➝ Detects and corrects typos by suggesting the correct command.
-
-* **Advanced Customization** 🎨  
-  ➝ Themes and plugins via **Oh My Zsh** for an optimized and stylish terminal.
-
-* **Enhanced Command History Management** 📜  
-  ➝ Quick search for previous commands and removal of duplicates.
-
-* **Ultra-fast Navigation** 🚀  
-  ➝ **z** plugin for instant access to the most frequently used directories.
-
-* **Powerful Aliases and Shortcuts** ⚡  
-  ➝ Create short commands to speed up task execution.
-
-* **Bash Compatibility** 🔄  
-  ➝ Runs existing Bash scripts without issues.
-
-* **Separated `$PATH` Management** 📁  
-  ➝ `$PATH` is handled as an array (`$path`), making it easier to manage.
-
-#### Zsh Weak Points
-
-* **Higher Resource Consumption** 🖥️  
-  ➝ More memory-intensive than Bash, especially with **Oh My Zsh** and multiple plugins enabled.
-
-* **Longer Startup Time** ⏳  
-  ➝ Can slow down on launch if too many heavy plugins or themes are loaded.
-
-* **Imperfect Compatibility with Some Scripts** ⚠️  
-  ➝ Some scripts specifically written for Bash may require adjustments.
-
-* **More Complex Configuration** 🔧  
-  ➝ Requires more customization to fully take advantage of its features.
-
-* **Dependency on Oh My Zsh for Beginners** 🏗️  
-  ➝ Many popular features require additional frameworks.
-
-* **Less Native Support on Some Systems** 📦  
-  ➝ Not installed by default on all Linux distributions and macOS (requires manual installation).
-
-* **Longer Learning Curve for Beginners** 📘  
-  ➝ Many advanced options and commands can be overwhelming at first.
-
-* **Potential Conflicts with Bash** 🔄  
-  ➝ Can cause errors if some Bash configurations are incompatible with Zsh.
-
-* **Less Online Documentation and Support than Bash** 🌐  
-  ➝ Most tutorials and online solutions are geared towards Bash.
-
-### Comparison: Bash vs Zsh  
-
-Bash and Zsh are two of the most popular **command interpreters** on Unix and Linux.  
-Both allow users to execute commands, navigate files, and automate tasks through scripts.  
-However, despite their shared foundations, their differences in **features, customization, and performance** can influence a user's choice.
-cute commands, navigate files, and automate tasks through scripts.  
-However, despite their shared foundations, their differences in **features, customization, and performance** can influence a user's choice.
 
 ### Terminal Commands
 
@@ -260,74 +126,7 @@ However, despite their shared foundations, their differences in **features, cust
 
 | Command | Description |
 |----------|-------------|
-| `cat <file>` | Display### About Zsh
-
-#### Zsh Introduction
-
-Like Bash, Zsh is a powerful interactive command interpreter. It is used in Unix and Linux environments and offers a smooth and efficient experience thanks to its many advanced features.  
-It is highly appreciated by developers and system administrators as it allows fast navigation and extensive terminal customization.
-
-#### Zsh Strong Points
-
-* **Smart Auto-completion** 🎯  
-  ➝ Dynamic suggestions for commands and options.
-
-* **Auto-correction** 🔍  
-  ➝ Detects and corrects typos by suggesting the correct command.
-
-* **Advanced Customization** 🎨  
-  ➝ Themes and plugins via **Oh My Zsh** for an optimized and stylish terminal.
-
-* **Enhanced Command History Management** 📜  
-  ➝ Quick search for previous commands and removal of duplicates.
-
-* **Ultra-fast Navigation** 🚀  
-  ➝ **z** plugin for instant access to the most frequently used directories.
-
-* **Powerful Aliases and Shortcuts** ⚡  
-  ➝ Create short commands to speed up task execution.
-
-* **Bash Compatibility** 🔄  
-  ➝ Runs existing Bash scripts without issues.
-
-* **Separated `$PATH` Management** 📁  
-  ➝ `$PATH` is handled as an array (`$path`), making it easier to manage.
-
-#### Zsh Weak Points
-
-* **Higher Resource Consumption** 🖥️  
-  ➝ More memory-intensive than Bash, especially with **Oh My Zsh** and multiple plugins enabled.
-
-* **Longer Startup Time** ⏳  
-  ➝ Can slow down on launch if too many heavy plugins or themes are loaded.
-
-* **Imperfect Compatibility with Some Scripts** ⚠️  
-  ➝ Some scripts specifically written for Bash may require adjustments.
-
-* **More Complex Configuration** 🔧  
-  ➝ Requires more customization to fully take advantage of its features.
-
-* **Dependency on Oh My Zsh for Beginners** 🏗️  
-  ➝ Many popular features require additional frameworks.
-
-* **Less Native Support on Some Systems** 📦  
-  ➝ Not installed by default on all Linux distributions and macOS (requires manual installation).
-
-* **Longer Learning Curve for Beginners** 📘  
-  ➝ Many advanced options and commands can be overwhelming at first.
-
-* **Potential Conflicts with Bash** 🔄  
-  ➝ Can cause errors if some Bash configurations are incompatible with Zsh.
-
-* **Less Online Documentation and Support than Bash** 🌐  
-  ➝ Most tutorials and online solutions are geared towards Bash.
-
-### Comparison: Bash vs Zsh  
-
-Bash and Zsh are two of the most popular **command interpreters** on Unix and Linux.  
-Both allow users to execute commands, navigate files, and automate tasks through scripts.  
-However, despite their shared foundations, their differences in **features, customization, and performance** can influence a user's choice.
-s file content |
+| `cat <file>` | Display### About Zshs file content |
 | `less <file>` | Paged reading |
 
 #### 🔍 Searching
@@ -364,7 +163,7 @@ s file content |
 
 ## Bash
 
-<img src="img/Bash.png" alt="Structure du travail" width="100" align='center'> 
+<img src="img/Bash.png" alt="Structure du travail" width="100" align='center'>
 
 ### Bash Shortcuts
 
@@ -376,7 +175,7 @@ s file content |
 | `Ctrl + X + E` | Open the default text editor to modify the current command |
 | `Ctrl + X + Ctrl + E` | Same function as `Ctrl + X + E` (compatible with more environments) |
 | `Ctrl + T` | Swap the order of the last two typed characters |
-| `Alt + .` | Retrieve the last argument of the previous command (equivalent to ` !$`) |
+| `Alt + .` | Retrieve the last argument of the previous command (equivalent to `!$`) |
 | `Alt + *` | Expand a file pattern (`*.txt` becomes all `.txt` files) |
 | `Alt + U` | Convert the word under the cursor to uppercase |
 | `Alt + L` | Convert the word under the cursor to lowercase |
@@ -403,8 +202,6 @@ s file content |
 | `test <condition>` | Evaluate a condition (e.g., string comparison, files) |
 
 ## Zsh
-
-<img src="img/Zsh.png" alt="Structure du travail" width="100" align='center'>
 
 ### Zsh Shortcuts
 
@@ -618,7 +415,7 @@ It is highly appreciated by developers and system administrators as it allows fa
 * **Less Online Documentation and Support than Bash** 🌐  
   ➝ Most tutorials and online solutions are geared towards Bash.
 
-### Comparison: Bash vs Zsh  
+### Comparison: Bash vs Zsh
 
 Bash and Zsh are two of the most popular **command interpreters** on Unix and Linux.  
 Both allow users to execute commands, navigate files, and automate tasks through scripts.  
@@ -626,29 +423,29 @@ However, despite their shared foundations, their differences in **features, cust
 
 #### Main Functions
 
-| Fonctionnalité          | Bash ✅ | Zsh ✅ |
+| Feature                 | Bash ✅ | Zsh ✅ |
 |-------------------------|--------|--------|
-| Autocomplétion          | Basique | Avancée (suggestions dynamiques) |
-| Correction automatique  | ❌ Non  | ✅ Oui (corrige les fautes de frappe) |
-| Personnalisation       | Limitée | Très avancée avec **Oh My Zsh** |
-| Gestion de l’historique | Standard | ✅ Améliorée (suppression des doublons, partage entre sessions) |
-| Navigation rapide       | ❌ Non | ✅ Oui (*plugin z*, **cd amélioré**) |
-| Séparation `$PATH`      | ❌ Non | ✅ Oui (*géré en tableau*, facilite l’édition) |
-| Scripts Bash            | ✅ Oui | ✅ Oui (*compatible avec Bash*) |
-| Gestion des processus   | ✅ Oui | ✅ Oui |
-| Installation par défaut | ✅ Oui (Linux/macOS) | ❌ Non (doit être installé manuellement) |
+| Auto-completion        | Basic  | Advanced (dynamic suggestions) |
+| Auto-correction        | ❌ No  | ✅ Yes (fixes typos) |
+| Customization         | Limited | Very advanced with **Oh My Zsh** |
+| History Management     | Standard | ✅ Enhanced (removes duplicates, shared across sessions) |
+| Fast Navigation       | ❌ No | ✅ Yes (*z plugin*, **improved cd**) |
+| `$PATH` Separation      | ❌ No | ✅ Yes (*managed as an array*, easier to edit) |
+| Bash Scripts           | ✅ Yes | ✅ Yes (*compatible with Bash*) |
+| Process Management     | ✅ Yes | ✅ Yes |
+| Default Installation   | ✅ Yes (Linux/macOS) | ❌ No (must be installed manually) |
 
-#### Final verdict
+#### Final Verdict
 
-Le choix entre **Bash et Zsh** dépend essentiellement des **besoins et préférences de l’utilisateur**.  
+The choice between **Bash and Zsh** primarily depends on the **user’s needs and preferences**.  
 
-* **Si l’objectif est la compatibilité maximale et la simplicité**, Bash est suffisant. Il est **déjà installé** sur la plupart des systèmes et bénéficie d’une **documentation importante**.  
-* **Si l’on recherche une expérience plus moderne, interactive et ergonomique**, Zsh est une alternative plus intéréssante.  
-* **Dans un contexte professionnel**, Zsh peut offrir un **gain de productivité** non négligeable grâce à son **autocomplétion avancée, sa gestion optimisée de l’historique et ses plugins**.  
+* **If maximum compatibility and simplicity are the goal**, Bash is sufficient. It is **pre-installed** on most systems and has **extensive documentation**.  
+* **If you want a more modern, interactive, and ergonomic experience**, Zsh is a more attractive alternative.  
+* **In a professional environment**, Zsh can provide a **significant productivity boost** thanks to its **advanced auto-completion, optimized history management, and plugins**.  
 
-Cependant, bien que Zsh offre plus de fonctionnalités, **il demande une configuration initiale** pour en tirer pleinement parti. Pour un utilisateur occasionnel, cette personnalisation peut **ne pas être nécessaire**.  
+However, while Zsh offers more features, **it requires initial configuration** to fully take advantage of them. For occasional users, this customization **may not be necessary**.  
 
-Dans l’ensemble, **Zsh est un excellent choix pour ceux qui passent beaucoup de temps dans le terminal**, tandis que Bash reste une valeur sûre pour **sa simplicité d’utilisation**.  
+Overall, **Zsh is an excellent choice for those who spend a lot of time in the terminal**, while Bash remains a solid option for **its ease of use**.  
 
 ## Installation
 
@@ -659,87 +456,108 @@ Dans l’ensemble, **Zsh est un excellent choix pour ceux qui passent beaucoup d
 | **Vim** | `sudo apt install vim` | `sudo pacman -S vim` | [Documentation Vim](https://vimdoc.sourceforge.net/) |
 | **Nano** | `sudo apt install nano` | `sudo pacman -S nano` | [Documentation Nano](https://www.nano-editor.org/docs.php) |
 
-Une fois l'installation terminée, vous pourrez désormais utiliser les commandes et raccourcis situés plus haut.
+Once you're done with the installation, you'll be able to use the cmmands and shortcuts we have presented to you above.
 
 ## Configuration
 
 ### Bash and Zsh
 
-Pour modifier et configurer votre shell, vous pouvez utiliser la commande `chsh` afin de choisir le chemin vers le shell à utiliser.
+To modify and configure your shell, you can use the `chsh` command to select the path to the shell you want to use.
 
-Vous pouvez également prompter `chsh -s <ins>PATH_AU_SHELL</ins>` afin d'insérer directement le chemin vers le bon shell.
+You can also run:
 
-Une fois cela fait, il faut redémarrer la session. En ouvrant votre terminal, le changement devrait être effectif. Pour en être sûr et certain, utiliser `echo $SHELL` afin de vérifier que vous utilisez le bon shell.
+```bash
+chsh -s <PATH_TO_SHELL>
+```
 
-Par exemple, pour zsh:
+This will directly insert the path to the correct shell.
 
-1. Utiliser `chsh -s /bin/zsh`
-2. Redémarrer la session
+Once this is done, you need to restart your session. When you open your terminal, the change should take effect.
+To be sure, use:
 
-Ceci changera le shell par défaut pour cet utilisateur à zsh.
+```bash
+echo $SHELL
+```
+
+This will verify that you are using the correct shell.
+
+#### Example: Switching to Zsh
+
+To change the default shell to Zsh:
+
+* Run the following command:
+
+```bash
+chsh -s /bin/zsh
+```
+
+* Restart your session.
+
+This will set Zsh as the default shell for the current user.
 
 ### Vim and Nano
 
 #### Configuring Vim
 
-Vim utilise un fichier spécifique appelé `.vimrc` (situé dans votre répertoire personnel) pour stocker les paramètres.
+Vim uses a special file called `.vimrc` (found in your home directory) to store settings.
 
-**Étapes pour configurer Vim :**
+**Steps to Configure Vim:**
 
-1. **Ouvrir le fichier de configuration :**
+1. **Open the configuration file:**
 
-   ```zsh
+```sh
    nano ~/.vimrc
-   ```
+```
 
-2. **Ajouter quelques paramètres de base :** (Copiez-collez ces lignes)
+2. **Add some basic settings:**
 
-   ```zsh
-   set number          " Afficher les numéros de ligne
-   syntax on           " Activer la coloration syntaxique
-   set autoindent      " Auto-indent des nouvelles lignes
-   set tabstop=4       " Définir la largeur des tabulations à 4 espaces
-   set shiftwidth=4    " Définir la largeur d'indentation à 4 espaces
-   ```
+```vim
+   set number          " Show line numbers
+   syntax on           " Enable syntax highlighting
+   set autoindent      " Auto-indent new lines
+   set tabstop=4       " Set tab width to 4 spaces
+   set shiftwidth=4    " Set indentation width to 4 spaces
+```
 
-3. **Enregistrer et quitter Nano :**  
-   * Appuyez sur ``CTRL + X``, puis ``Y``, puis ``Entrée``.
+3. **Save and exit in Nano:**  
 
-4. **Tester Vim :**  
-   Ouvrez Vim en tapant :
+   * Press `CTRL + X`, then `Y`, then `Enter`.
 
-   ```zsh
+4. **Test Vim:**  
+   Open Vim by typing:
+
+   ```sh
    vim testfile.txt
    ```
 
-   Vos paramètres devraient maintenant être actifs !
+   Your settings should now be active!
 
-#### Configuring Nano
+## Configuring Nano
 
-Nano utilise un fichier de configuration appelé `.nanorc`.
+Nano uses a configuration file called `.nanorc`.
 
-**Étapes pour configurer Nano :**
+**Steps to Configure Nano:**
 
-1. **Ouvrir le fichier de configuration :**
+1. **Open the configuration file:**
 
-   ```zsh
+   ```sh
    nano ~/.nanorc
    ```
 
-2. **Ajouter quelques paramètres utiles :**
+2. **Add some useful settings:**
 
-   ```zsh
-   set linenumbers    # Afficher les numéros de ligne
-   set tabsize 4      # Définir la largeur des tabulations à 4 espaces
-   set mouse          # Activer la prise en charge de la souris
+   ```sh
+   set linenumbers    # Show line numbers
+   set tabsize 4      # Set tab width to 4 spaces
+   set mouse          # Enable mouse support
    ```
 
-3. **Enregistrer et quitter Nano :**  
-   * Appuyez sur `CTRL + X`, puis `Y`, puis `Entrée`.
+3. **Save and exit in Nano:**  
+   * Press `CTRL + X`, then `Y`, then `Enter`.
 
-4. **Tester Nano :**  
-   Ouvrez un fichier dans Nano pour voir si les modifications fonctionnent :
+4. **Test Nano:**  
+   Open a file in Nano to see if the changes work:
 
-   ```zsh
+   ```sh
    nano testfile.txt
    ```

@@ -19,6 +19,9 @@ Ce projet contient :
 2. Ajoutez ou améliorez le contenu
 3. Faites une pul Request 
 
+## Licence
+
+Ce projet est sous licence Creative Commons Attribution 4.0 International (CC-BY 4.0)
 
 
 

@@ -505,30 +505,31 @@ Vim uses a special file called `.vimrc` (found in your home directory) to store 
 
 1. **Open the configuration file:**
 
-```sh
-   nano ~/.vimrc
-```
+    ```sh
+    nano ~/.vimrc
+    ```
 
 2. **Add some basic settings:**
 
-```vim
+    ```vim
    set number          " Show line numbers
    syntax on           " Enable syntax highlighting
    set autoindent      " Auto-indent new lines
    set tabstop=4       " Set tab width to 4 spaces
    set shiftwidth=4    " Set indentation width to 4 spaces
-```
+    ```
 
 3. **Save and exit in Nano:**  
 
    * Press `CTRL + X`, then `Y`, then `Enter`.
 
 4. **Test Vim:**  
+   
    Open Vim by typing:
 
-   ```sh
-   vim testfile.txt
-   ```
+    ```sh
+    vim testfile.txt
+    ```
 
    Your settings should now be active!
 

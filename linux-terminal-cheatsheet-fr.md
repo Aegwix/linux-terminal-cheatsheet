@@ -53,8 +53,8 @@ Voici le Processus global lorsque vous tapez une commande:
     * [Configuration Nano](#configuring-nano)
 
 ## Terminal 
- <img src="Untitled.jpeg" alt="Structure du travail" width="100" align='center'> 
- 
+ <img src="img/Untitled.jpeg" alt="Structure du travail" width="100" align='center'> 
+
 ### Raccourcis Terminal  
 
 #### 📌 Contrôles de base
@@ -159,7 +159,8 @@ Voici le Processus global lorsque vous tapez une commande:
 | `sudp apt install <paquet>` | Installe un logiciel |
 | `sudo apt remove <paquet>` | Désinstalle un logiciel |
 
-## Bash <img src="Bash.png" alt="Structure du travail" width="100" align='center'> 
+## Bash 
+<img src="img/Bash.png" alt="Structure du travail" width="100" align='center'> 
 
 ### Raccourcis Bash
 
@@ -197,7 +198,8 @@ Voici le Processus global lorsque vous tapez une commande:
 | `exec <commande>` | Remplace le processus actuel par un autre sans créer un nouveau shell |
 | `test <condition>` | Évalue une condition (ex : comparaison de chaînes, fichiers) |
 
-## Zsh <img src="Zsh.png" alt="Structure du travail" width="100" align='center'>
+## Zsh 
+<img src="img/Zsh.png" alt="Structure du travail" width="100" align='center'>
 
 ### Raccourcis Zsh
 
@@ -232,7 +234,8 @@ Voici le Processus global lorsque vous tapez une commande:
 | `cat nom du fichier`  | Afficher le contenu d'un fichier |
 | `nano nom du fichier`  | Éditer un fichier avec Nano |
 
-## Vim <img src="VIM.png" alt="Structure du travail" width="100" align='center'>
+## Vim 
+<img src="img/VIM.png" alt="Structure du travail" width="100" align='center'>
 
 ### Raccourcis Vim
 
@@ -288,7 +291,8 @@ Voici le Processus global lorsque vous tapez une commande:
 |`Ctrl + w + k`| Aller à la fenêtre au-dessus.|
 |`:close`| Fermer la fenêtre en cours.|
 
-## Nano <img src="nanonew.jpg" alt="Structure du travail" width="100" align='center'>
+## Nano
+ <img src="img/nanonew.jpg" alt="Structure du travail" width="100" align='center'>
 
 ### Raccourcis Nano
 

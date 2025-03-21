@@ -3,7 +3,7 @@
 ## Présentation du terminal
 
 Un **terminal** est un outil qui permet d'interagir avec un système d'exploitation via des commandes textuelles, plutôt qu'à travers une interface graphique.
-Processus global lorsque vous tapez une commande:
+Voici le Processus global lorsque vous tapez une commande:
 
 * **Saisie de la commande :** Vous entrez une commande textuelle qui donne des instructions au système.
 * **Traitement :** Le shell interprète cette commande et exécute les actions correspondantes (comme copier un fichier, afficher une liste de dossiers, etc.).
@@ -65,7 +65,7 @@ Processus global lorsque vous tapez une commande:
 | `Ctrl + C` | Arrête le processus en cours |
 | `Ctrl + Z` | Suspend le processus en cours |
 | `Ctrl + D` | Ferme le terminal ou termine une session |
-| `Ctrl + L` | Efface l'écran du terminal (équivalent à `clear`) |
+| `Ctrl + L` | Efface l'écran du terminal (équivalent de la commande `clear`) |
 
 #### 🕵️ Navigation dans les commandes
 
@@ -102,7 +102,7 @@ Processus global lorsque vous tapez une commande:
 
 | Raccourci | Description |
 |-----------|-------------|
-| `Tab` | Auto-complétion de commande/fichier |
+| `Tab` | Auto-complétion de la commande |
 | `Ctrl + Shift + C` | Copie du texte sélectionné |
 | `Ctrl + Shift + V` | Colle du texte copié |
 | `Alt + .` | Répète le dernier argument de la commande précédente |
@@ -350,8 +350,8 @@ Bash est un interpréteur de commandes utilisé principalement sur les systèmes
 
 #### Introduction à Zsh
 
-Zsh est un interpréteur de commandes interactif et puissant utilisé dans les environnements Unix et Linux. Il offre une expérience fluide et efficace grâce à ses nombreuses fonctionnalités avancées.
-Très apprécié des développeurs et administrateurs systèmes, il permet une navigation rapide et une personnalisation poussée du terminal.
+Zsh est comme Bsh un interpréteur de commandes interactif puissant. Il est utilisé dans les environnements Unix et Linux, et offre une expérience fluide et efficace grâce à ses nombreuses fonctionnalités avancées.
+Il est un shell très apprécié des développeurs et administrateurs systèmes car il permet une navigation rapide et une personnalisation poussée du terminal.
 
 #### Points forts de Zsh
 
@@ -432,13 +432,13 @@ Cependant, bien qu’ils partagent des bases communes, leurs différences en ter
 
 Le choix entre **Bash et Zsh** dépend essentiellement des **besoins et préférences de l’utilisateur**.  
 
-* **Si l’objectif est la compatibilité maximale et la simplicité**, Bash est suffisant. Il est **déjà installé** sur la plupart des systèmes et bénéficie d’une **documentation extrêmement riche**.  
-* **Si l’on recherche une expérience plus moderne, interactive et ergonomique**, Zsh est une alternative plus attrayante.  
+* **Si l’objectif est la compatibilité maximale et la simplicité**, Bash est suffisant. Il est **déjà installé** sur la plupart des systèmes et bénéficie d’une **documentation importante**.  
+* **Si l’on recherche une expérience plus moderne, interactive et ergonomique**, Zsh est une alternative plus intéréssante.  
 * **Dans un contexte professionnel**, Zsh peut offrir un **gain de productivité** non négligeable grâce à son **autocomplétion avancée, sa gestion optimisée de l’historique et ses plugins**.  
 
 Cependant, bien que Zsh offre plus de fonctionnalités, **il demande une configuration initiale** pour en tirer pleinement parti. Pour un utilisateur occasionnel, cette personnalisation peut **ne pas être nécessaire**.  
 
-Dans l’ensemble, **Zsh est un excellent choix pour ceux qui passent beaucoup de temps dans le terminal**, tandis que Bash reste une valeur sûre pour son **universalité et sa simplicité d’utilisation**.  
+Dans l’ensemble, **Zsh est un excellent choix pour ceux qui passent beaucoup de temps dans le terminal**, tandis que Bash reste une valeur sûre pour **sa simplicité d’utilisation**.  
 
 ## Installation
 
@@ -457,78 +457,78 @@ Une fois l'installation terminée, vous pourrez désormais utiliser les commande
 
 Pour modifier et configurer votre shell, vous pouvez utiliser la commande `chsh` afin de choisir le chemin vers le shell à utiliser.
 
-Vous pouvez également prompter `chsh -s <ins>PATH_AU_SHELL</ins>` afin d'insérer directement le cheminn vers le bon shell.
+Vous pouvez également prompter `chsh -s <ins>PATH_AU_SHELL</ins>` afin d'insérer directement le chemin vers le bon shell.
 
-Une fois cela fait, il faut se déconnecter et reconnecter. En ouvrant votre terminal, le changement devrait être effectif. Pour en être sûr et certain, utiliser `echo $SHELL` afin de vérifier l'utilisation du bon shell.
+Une fois cela fait, il faut redémarrer la session. En ouvrant votre terminal, le changement devrait être effectif. Pour en être sûr et certain, utiliser `echo $SHELL` afin de vérifier que vous utilisez le bon shell.
 
 Par exemple, pour zsh:
 
 1. Utiliser `chsh -s /bin/zsh`
-2. Se déconnecter et se reconnecter
+2. Redémarrer la session
 
 Ceci changera le shell par défaut pour cet utilisateur à zsh.
 
-### Vim and Nano
+### Vim et Nano
 
 #### Configuring Vim
 
-Vim uses a special file called `.vimrc` (found in your home directory) to store settings.
+Vim utilise un fichier spécifique appelé `.vimrc` (situé dans votre répertoire personnel) pour stocker les paramètres.
 
-**Steps to Configure Vim:**
+**Étapes pour configurer Vim :**
 
-1. **Open the configuration file:**
+1. **Ouvrir le fichier de configuration :**
 
    ```zsh
    nano ~/.vimrc
    ```
 
-2. **Add some basic settings:** (Copy & paste these)
+2. **Ajouter quelques paramètres de base :** (Copiez-collez ces lignes)
 
    ```zsh
-   set number          " Show line numbers
-   syntax on           " Enable syntax highlighting
-   set autoindent      " Auto-indent new lines
-   set tabstop=4       " Set tab width to 4 spaces
-   set shiftwidth=4    " Set indentation width to 4 spaces
+   set number          " Afficher les numéros de ligne
+   syntax on           " Activer la coloration syntaxique
+   set autoindent      " Auto-indent des nouvelles lignes
+   set tabstop=4       " Définir la largeur des tabulations à 4 espaces
+   set shiftwidth=4    " Définir la largeur d'indentation à 4 espaces
    ```
 
-3. **Save and exit in Nano:**  
-   * Press `CTRL + X`, then `Y`, then `Enter`.
+3. **Enregistrer et quitter Nano :**  
+   * Appuyez sur ``CTRL + X``, puis ``Y``, puis ``Entrée``.
 
-4. **Test Vim:**  
-   Open Vim by typing:
+4. **Tester Vim :**  
+   Ouvrez Vim en tapant :
 
    ```zsh
    vim testfile.txt
    ```
 
-   Your settings should now be active!
+   Vos paramètres devraient maintenant être actifs !
 
-#### Configuring Nano
+#### Configuration de Nano
 
-Nano uses a configuration file called `.nanorc`.
+Nano utilise un fichier de configuration appelé `.nanorc`.
 
-**Steps to Configure Nano:**
+**Étapes pour configurer Nano :**
 
-1. **Open the configuration file:**
+1. **Ouvrir le fichier de configuration :**
 
    ```zsh
    nano ~/.nanorc
    ```
 
-2. **Add some useful settings:**
+2. **Ajouter quelques paramètres utiles :**
 
    ```zsh
-   set linenumbers    # Show line numbers
-   set tabsize 4      # Set tab width to 4 spaces
-   set mouse          # Enable mouse support
+   set linenumbers    # Afficher les numéros de ligne
+   set tabsize 4      # Définir la largeur des tabulations à 4 espaces
+   set mouse          # Activer la prise en charge de la souris
    ```
 
-3. **Save and exit in Nano:**  
-   * Press `CTRL + X`, then `Y`, then `Enter`.
+3. **Enregistrer et quitter Nano :**  
+   * Appuyez sur `CTRL + X`, puis `Y`, puis `Entrée`.
 
-4. **Test Nano:**  
-   Open a file in Nano to see if the changes work:
+4. **Tester Nano :**  
+   Ouvrez un fichier dans Nano pour voir si les modifications fonctionnent :
 
    ```zsh
    nano testfile.txt

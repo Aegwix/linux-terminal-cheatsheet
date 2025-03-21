@@ -12,3 +12,13 @@ Ce projet contient :
 - Tous les raccourcis du terminal et de Linux
 - Une comparaison entre Bash et ZSH
 - L'installation et la configuration des différents shells de Linux
+
+## Contribuer
+
+1. Forkez le projet
+2. Ajoutez ou améliorez le contenu
+3. Faites une pul Request 
+
+
+
+

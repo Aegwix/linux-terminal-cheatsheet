@@ -9,9 +9,7 @@ Voici le Processus global lorsque vous tapez une commande:
 * **Traitement :** Le shell interprète cette commande et exécute les actions correspondantes (comme copier un fichier, afficher une liste de dossiers, etc.).
 * **Affichage du résultat :** Le terminal retourne la réponse (ou un message d’erreur) basée sur la commande exécutée.
 
-```html
 <img src="https://www.linuxtricks.fr/upload/terminal-shell-prompt-commande.png" alt="Structure du travail" width="400" align='center'>  
-```
 
 **Utilisation des commandes dans le Terminal:**  
      1. Commencez par ouvrir le terminal.  
@@ -54,9 +52,10 @@ Voici le Processus global lorsque vous tapez une commande:
     * [Configuration Vim](#configuring-vim)
     * [Configuration Nano](#configuring-nano)
 
-## Terminal
-
-### Raccourcis Terminal
+## Terminal 
+ <img src="Untitled.jpeg" alt="Structure du travail" width="100" align='center'> 
+ 
+### Raccourcis Terminal  
 
 #### 📌 Contrôles de base
 
@@ -160,7 +159,7 @@ Voici le Processus global lorsque vous tapez une commande:
 | `sudp apt install <paquet>` | Installe un logiciel |
 | `sudo apt remove <paquet>` | Désinstalle un logiciel |
 
-## Bash
+## Bash <img src="Bash.png" alt="Structure du travail" width="100" align='center'> 
 
 ### Raccourcis Bash
 
@@ -198,7 +197,7 @@ Voici le Processus global lorsque vous tapez une commande:
 | `exec <commande>` | Remplace le processus actuel par un autre sans créer un nouveau shell |
 | `test <condition>` | Évalue une condition (ex : comparaison de chaînes, fichiers) |
 
-## Zsh
+## Zsh <img src="Zsh.png" alt="Structure du travail" width="100" align='center'>
 
 ### Raccourcis Zsh
 
@@ -233,7 +232,7 @@ Voici le Processus global lorsque vous tapez une commande:
 | `cat nom du fichier`  | Afficher le contenu d'un fichier |
 | `nano nom du fichier`  | Éditer un fichier avec Nano |
 
-## Vim
+## Vim <img src="VIM.png" alt="Structure du travail" width="100" align='center'>
 
 ### Raccourcis Vim
 
@@ -289,7 +288,7 @@ Voici le Processus global lorsque vous tapez une commande:
 |`Ctrl + w + k`| Aller à la fenêtre au-dessus.|
 |`:close`| Fermer la fenêtre en cours.|
 
-## Nano
+## Nano <img src="nanonew.jpg" alt="Structure du travail" width="100" align='center'>
 
 ### Raccourcis Nano
 

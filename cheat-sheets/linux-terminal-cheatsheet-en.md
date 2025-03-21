@@ -167,7 +167,7 @@ Here's how it usually works:
 
 ### Bash Shortcuts
 
-| **Shortcut** | **Function** |
+| Shortcut | Function |
 |------------|-------------------------|
 | `Ctrl + R` | Search for a command in the history in real time (reverse search) |
 | `Ctrl + G` | Exit history search (`Ctrl + R`) without executing a command |
@@ -186,20 +186,20 @@ Here's how it usually works:
 
 ### Bash Commands
 
-| Commande | Fonction |
+| Command | Function |
 |---|---|
-| `alias <nom_alias>='<commande>'` | Crée un alias pour une commande |
-| `unalias <nom_alias>` | Supprime un alias |
-| `history` | Affiche l'historique des commandes précédentes |
-| `!!` | Réexécute la dernière commande |
-| `!<num>` | Exécute la commande correspondant au numéro `<num>` dans l'historique |
-| `export <variable>=<valeur>` | Crée une variable d'environnement (partagée entre processus) |
-| `source <fichier>` | Exécute un script dans le shell courant sans ouvrir un nouveau processus |
-| `printf "<format>"` | Affiche un texte formaté (plus puissant que `echo`) |
-| `set` | Affiche ou définit des variables d'environnement ou des options de shell |
-| `declare` | Permet de déclarer des variables avec des attributs (ex : `-a` pour tableau) |
-| `exec <commande>` | Remplace le processus actuel par un autre sans créer un nouveau shell |
-| `test <condition>` | Évalue une condition (ex : comparaison de chaînes, fichiers) |
+| `alias <alias_name>='<command>'` | Create an alias for a command |
+| `unalias <alias_name>` | Remove an alias |
+| `history` | Show the history of previous commands |
+| `!!` | Re-run the last command |
+| `!<num>` | Execute the command corresponding to number `<num>` in history |
+| `export <variable>=<value>` | Create an environment variable (shared between processes) |
+| `source <file>` | Execute a script in the current shell without opening a new process |
+| `printf "<format>"` | Display formatted text (more powerful than `echo`) |
+| `set` | Display or set environment variables or shell options |
+| `declare` | Declare variables with attributes (e.g., `-a` for arrays) |
+| `exec <command>` | Replace the current process with another one without creating a new shell |
+| `test <condition>` | Evaluate a condition (e.g., string comparison, files) |
 
 ## Zsh
 
@@ -207,36 +207,36 @@ Here's how it usually works:
 
 ### Zsh Shortcuts
 
-| **Raccourci**  | **Description** |
+| Shortcut  | Description |
 |---------------|----------------|
-| `Ctrl + A`   | Aller au **début** de la ligne |
-| `Ctrl + E`   | Aller à la **fin** de la ligne |
-| `Alt + F`    | Aller au **mot suivant** |
-| `Alt + B`    | Aller au **mot précédent** |
-| `Ctrl + U`   | **Supprimer** tout avant le curseur |
-| `Ctrl + K`   | **Supprimer** tout après le curseur |
-| `Ctrl + W`   | Supprimer le **mot précédent** |
-| `↑ (Flèche Haut)`  | Revenir à la **commande précédente** |
-| `↓ (Flèche Bas)`   | Aller à la **commande suivante** |
-| `!!`        | Exécuter la **dernière commande** |
+| `Ctrl + A`   | Go to the **beginning** of the line |
+| `Ctrl + E`   | Go to the **end** of the line |
+| `Alt + F`    | Move forward one **word** |
+| `Alt + B`    | Move backward one **word** |
+| `Ctrl + U`   | **Delete** everything before the cursor |
+| `Ctrl + K`   | **Delete** everything after the cursor |
+| `Ctrl + W`   | Delete the **previous word** |
+| `↑ (Up Arrow)`  | Go back to the **previous command** |
+| `↓ (Down Arrow)`   | Move to the **next command** |
+| `!!`        | Execute the **last command** |
 
 ### Zsh Commands
 
-| **Commande**  | **Description** |
+| Command  | Description |
 |--------------|----------------|
-| `echo "texte"`  | Afficher du texte à l'écran |
-| `cd`  | Changer de répertoire |
-| `pwd`  | Afficher le répertoire actuel |
-| `ls`  | Lister les fichiers et dossiers |
-| `mkdir nom_dossier`  | Créer un nouveau dossier |
-| `rmdir nom_dossier`  | Supprimer un dossier vide |
-| `rm nom du fichier`  | Supprimer un fichier |
-| `rm -r nom du dossier`  | Supprimer un dossier et son contenu |
-| `cp nom du fichier destination`  | Copier un fichier |
-| `mv nom du fichier destination`  | Déplacer ou renommer un fichier |
-| `touch nom du fichier`  | Créer un fichier vide |
-| `cat nom du fichier`  | Afficher le contenu d'un fichier |
-| `nano nom du fichier`  | Éditer un fichier avec Nano |
+| `echo "text"`  | Display text on the screen |
+| `cd`  | Change directory |
+| `pwd`  | Show the current directory |
+| `ls`  | List files and directories |
+| `mkdir <folder_name>`  | Create a new directory |
+| `rmdir <folder_name>`  | Remove an empty directory |
+| `rm <file_name>`  | Delete a file |
+| `rm -r <folder_name>`  | Delete a folder and its contents |
+| `cp <file_name> <destination>`  | Copy a file |
+| `mv <file_name> <destination>`  | Move or rename a file |
+| `touch <file_name>`  | Create an empty file |
+| `cat <file_name>`  | Display the contents of a file |
+| `nano <file_name>`  | Edit a file with Nano |
 
 ## Vim
 

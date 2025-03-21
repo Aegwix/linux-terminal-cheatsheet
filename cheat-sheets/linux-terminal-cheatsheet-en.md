@@ -167,22 +167,22 @@ Here's how it usually works:
 
 ### Bash Shortcuts
 
-| Raccourci | Fonction |
-|------------|-------------------------------------------------------------|
-| `Ctrl + R` | Recherche une commande dans l'historique en temps réel (reverse search) |
-| `Ctrl + G` | Quitte la recherche dans l'historique (`Ctrl + R`) sans exécuter de commande |
-| `Ctrl + O` | Exécute la commande trouvée via `Ctrl + R` sans la quitter de l'historique |
-| `Ctrl + X + E` | Ouvre l'éditeur de texte par défaut pour modifier la commande en cours |
-| `Ctrl + X + Ctrl + E` | Même fonction que `Ctrl + X + E` (compatible avec plus d'environnements) |
-| `Ctrl + T` | Inverse l'ordre des deux derniers caractères tapés |
-| `Alt + .` | Récupère le dernier argument de la commande précédente (équivalent à ` !$`) |
-| `Alt + *` | Développe un motif de fichier (`*.txt` devient tous les fichiers `.txt`) |
-| `Alt + U` | Met en majuscule le mot sous le curseur |
-| `Alt + L` | Met en minuscule le mot sous le curseur |
-| `Alt + C` | Met la première lettre du mot sous le curseur en majuscule |
-| `Alt + T` | Échange l’ordre des deux derniers mots tapés |
-| `Alt + D` | Supprime le mot après le curseur |
-| `Alt + Backspace` | Supprime le mot avant le curseur |
+| **Shortcut** | **Function** |
+|------------|-------------------------|
+| `Ctrl + R` | Search for a command in the history in real time (reverse search) |
+| `Ctrl + G` | Exit history search (`Ctrl + R`) without executing a command |
+| `Ctrl + O` | Execute the command found via `Ctrl + R` without removing it from history |
+| `Ctrl + X + E` | Open the default text editor to modify the current command |
+| `Ctrl + X + Ctrl + E` | Same function as `Ctrl + X + E` (compatible with more environments) |
+| `Ctrl + T` | Swap the order of the last two typed characters |
+| `Alt + .` | Retrieve the last argument of the previous command (equivalent to ` !$`) |
+| `Alt + *` | Expand a file pattern (`*.txt` becomes all `.txt` files) |
+| `Alt + U` | Convert the word under the cursor to uppercase |
+| `Alt + L` | Convert the word under the cursor to lowercase |
+| `Alt + C` | Capitalize the first letter of the word under the cursor |
+| `Alt + T` | Swap the order of the last two typed words |
+| `Alt + D` | Delete the word after the cursor |
+| `Alt + Backspace` | Delete the word before the cursor |
 
 ### Bash Commands
 

@@ -43,7 +43,7 @@ Here's how it usually works:
     * [Introduction](#zsh-introduction)
     * [Strong Points](#zsh-strong-points)
     * [Weak Points](#zsh-weak-points)
-  * [Comparison](#comparison--bash-vs-zsh)
+  * [Comparison](#comparison-bash-vs-zsh)
     * [Main functions](#main-functions)
     * [Final Verdict](#final-verdict)
 * [Installation](#installation)
@@ -107,6 +107,140 @@ Here's how it usually works:
 | `Ctrl + Shift + C` | Copies selected text |
 | `Ctrl + Shift + V` | Pastes copied text |
 | `Alt + .` | Repeats the last argument of the previous command |
+### About Zsh
+
+#### Zsh Introduction
+
+Like Bash, Zsh is a powerful interactive command interpreter. It is used in Unix and Linux environments and offers a smooth and efficient experience thanks to its many advanced features.  
+It is highly appreciated by developers and system administrators as it allows fast navigation and extensive terminal customization.
+
+#### Zsh Strong Points
+
+* **Smart Auto-completion** 🎯  
+  ➝ Dynamic suggestions for commands and options.
+
+* **Auto-correction** 🔍  
+  ➝ Detects and corrects typos by suggesting the correct command.
+
+* **Advanced Customization** 🎨  
+  ➝ Themes and plugins via **Oh My Zsh** for an optimized and stylish terminal.
+
+* **Enhanced Command History Management** 📜  
+  ➝ Quick search for previous commands and removal of duplicates.
+
+* **Ultra-fast Navigation** 🚀  
+  ➝ **z** plugin for instant access to the most frequently used directories.
+
+* **Powerful Aliases and Shortcuts** ⚡  
+  ➝ Create short commands to speed up task execution.
+
+* **Bash Compatibility** 🔄  
+  ➝ Runs existing Bash scripts without issues.
+
+* **Separated `$PATH` Management** 📁  
+  ➝ `$PATH` is handled as an array (`$path`), making it easier to manage.
+
+#### Zsh Weak Points
+
+* **Higher Resource Consumption** 🖥️  
+  ➝ More memory-intensive than Bash, especially with **Oh My Zsh** and multiple plugins enabled.
+
+* **Longer Startup Time** ⏳  
+  ➝ Can slow down on launch if too many heavy plugins or themes are loaded.
+
+* **Imperfect Compatibility with Some Scripts** ⚠️  
+  ➝ Some scripts specifically written for Bash may require adjustments.
+
+* **More Complex Configuration** 🔧  
+  ➝ Requires more customization to fully take advantage of its features.
+
+* **Dependency on Oh My Zsh for Beginners** 🏗️  
+  ➝ Many popular features require additional frameworks.
+
+* **Less Native Support on Some Systems** 📦  
+  ➝ Not installed by default on all Linux distributions and macOS (requires manual installation).
+
+* **Longer Learning Curve for Beginners** 📘  
+  ➝ Many advanced options and commands can be overwhelming at first.
+
+* **Potential Conflicts with Bash** 🔄  
+  ➝ Can cause errors if some Bash configurations are incompatible with Zsh.
+
+* **Less Online Documentation and Support than Bash** 🌐  
+  ➝ Most tutorials and online solutions are geared towards Bash.
+
+### Comparison: Bash vs Zsh  
+
+Bash and Zsh are two of the most popular **command interpreters** on Unix and Linux.  
+Both allow users to exe### About Zsh
+
+#### Zsh Introduction
+
+Like Bash, Zsh is a powerful interactive command interpreter. It is used in Unix and Linux environments and offers a smooth and efficient experience thanks to its many advanced features.  
+It is highly appreciated by developers and system administrators as it allows fast navigation and extensive terminal customization.
+
+#### Zsh Strong Points
+
+* **Smart Auto-completion** 🎯  
+  ➝ Dynamic suggestions for commands and options.
+
+* **Auto-correction** 🔍  
+  ➝ Detects and corrects typos by suggesting the correct command.
+
+* **Advanced Customization** 🎨  
+  ➝ Themes and plugins via **Oh My Zsh** for an optimized and stylish terminal.
+
+* **Enhanced Command History Management** 📜  
+  ➝ Quick search for previous commands and removal of duplicates.
+
+* **Ultra-fast Navigation** 🚀  
+  ➝ **z** plugin for instant access to the most frequently used directories.
+
+* **Powerful Aliases and Shortcuts** ⚡  
+  ➝ Create short commands to speed up task execution.
+
+* **Bash Compatibility** 🔄  
+  ➝ Runs existing Bash scripts without issues.
+
+* **Separated `$PATH` Management** 📁  
+  ➝ `$PATH` is handled as an array (`$path`), making it easier to manage.
+
+#### Zsh Weak Points
+
+* **Higher Resource Consumption** 🖥️  
+  ➝ More memory-intensive than Bash, especially with **Oh My Zsh** and multiple plugins enabled.
+
+* **Longer Startup Time** ⏳  
+  ➝ Can slow down on launch if too many heavy plugins or themes are loaded.
+
+* **Imperfect Compatibility with Some Scripts** ⚠️  
+  ➝ Some scripts specifically written for Bash may require adjustments.
+
+* **More Complex Configuration** 🔧  
+  ➝ Requires more customization to fully take advantage of its features.
+
+* **Dependency on Oh My Zsh for Beginners** 🏗️  
+  ➝ Many popular features require additional frameworks.
+
+* **Less Native Support on Some Systems** 📦  
+  ➝ Not installed by default on all Linux distributions and macOS (requires manual installation).
+
+* **Longer Learning Curve for Beginners** 📘  
+  ➝ Many advanced options and commands can be overwhelming at first.
+
+* **Potential Conflicts with Bash** 🔄  
+  ➝ Can cause errors if some Bash configurations are incompatible with Zsh.
+
+* **Less Online Documentation and Support than Bash** 🌐  
+  ➝ Most tutorials and online solutions are geared towards Bash.
+
+### Comparison: Bash vs Zsh  
+
+Bash and Zsh are two of the most popular **command interpreters** on Unix and Linux.  
+Both allow users to execute commands, navigate files, and automate tasks through scripts.  
+However, despite their shared foundations, their differences in **features, customization, and performance** can influence a user's choice.
+cute commands, navigate files, and automate tasks through scripts.  
+However, despite their shared foundations, their differences in **features, customization, and performance** can influence a user's choice.
 
 ### Terminal Commands
 
@@ -126,7 +260,74 @@ Here's how it usually works:
 
 | Command | Description |
 |----------|-------------|
-| `cat <file>` | Displays file content |
+| `cat <file>` | Display### About Zsh
+
+#### Zsh Introduction
+
+Like Bash, Zsh is a powerful interactive command interpreter. It is used in Unix and Linux environments and offers a smooth and efficient experience thanks to its many advanced features.  
+It is highly appreciated by developers and system administrators as it allows fast navigation and extensive terminal customization.
+
+#### Zsh Strong Points
+
+* **Smart Auto-completion** 🎯  
+  ➝ Dynamic suggestions for commands and options.
+
+* **Auto-correction** 🔍  
+  ➝ Detects and corrects typos by suggesting the correct command.
+
+* **Advanced Customization** 🎨  
+  ➝ Themes and plugins via **Oh My Zsh** for an optimized and stylish terminal.
+
+* **Enhanced Command History Management** 📜  
+  ➝ Quick search for previous commands and removal of duplicates.
+
+* **Ultra-fast Navigation** 🚀  
+  ➝ **z** plugin for instant access to the most frequently used directories.
+
+* **Powerful Aliases and Shortcuts** ⚡  
+  ➝ Create short commands to speed up task execution.
+
+* **Bash Compatibility** 🔄  
+  ➝ Runs existing Bash scripts without issues.
+
+* **Separated `$PATH` Management** 📁  
+  ➝ `$PATH` is handled as an array (`$path`), making it easier to manage.
+
+#### Zsh Weak Points
+
+* **Higher Resource Consumption** 🖥️  
+  ➝ More memory-intensive than Bash, especially with **Oh My Zsh** and multiple plugins enabled.
+
+* **Longer Startup Time** ⏳  
+  ➝ Can slow down on launch if too many heavy plugins or themes are loaded.
+
+* **Imperfect Compatibility with Some Scripts** ⚠️  
+  ➝ Some scripts specifically written for Bash may require adjustments.
+
+* **More Complex Configuration** 🔧  
+  ➝ Requires more customization to fully take advantage of its features.
+
+* **Dependency on Oh My Zsh for Beginners** 🏗️  
+  ➝ Many popular features require additional frameworks.
+
+* **Less Native Support on Some Systems** 📦  
+  ➝ Not installed by default on all Linux distributions and macOS (requires manual installation).
+
+* **Longer Learning Curve for Beginners** 📘  
+  ➝ Many advanced options and commands can be overwhelming at first.
+
+* **Potential Conflicts with Bash** 🔄  
+  ➝ Can cause errors if some Bash configurations are incompatible with Zsh.
+
+* **Less Online Documentation and Support than Bash** 🌐  
+  ➝ Most tutorials and online solutions are geared towards Bash.
+
+### Comparison: Bash vs Zsh  
+
+Bash and Zsh are two of the most popular **command interpreters** on Unix and Linux.  
+Both allow users to execute commands, navigate files, and automate tasks through scripts.  
+However, despite their shared foundations, their differences in **features, customization, and performance** can influence a user's choice.
+s file content |
 | `less <file>` | Paged reading |
 
 #### 🔍 Searching
@@ -244,83 +445,83 @@ Here's how it usually works:
 
 ### Vim Shortcuts
 
-#### Édition
+#### **Editing**  
 
-| Raccourcis | Description |
+| **Shortcut** | **Description** |
 | --- | --- |
-|`i`| Mode insertion (avant le curseur).|
-|`a`| Mode insertion (après le curseur).|
-|`o`|Ajouter une nouvelle ligne sous celle en cours et entrer en mode insertion.|
-|`0`|Ajouter une nouvelle ligne au-dessus de celle en cours et entrer en mode insertion.|
-|`x`| Supprimer le caractère sous le curseur.|
-|`dd`|Supprimer la ligne courante.|
-|`d$`| Supprimer du curseur jusqu’à la fin de la ligne.|
-|`d^`|Supprimer du curseur jusqu’au début de la ligne.|
-|`u`| Annuler la dernière modification.|
-|`Ctrl + r`| Refaire une modification annulée.|
-|`p`| Coller après le curseur.|
-|`P`| Coller avant le curseur.|
+| `i` | Insert mode (before the cursor). |
+| `a` | Insert mode (after the cursor). |
+| `o` | Add a new line below the current one and enter insert mode. |
+| `O` | Add a new line above the current one and enter insert mode. |
+| `x` | Delete the character under the cursor. |
+| `dd` | Delete the current line. |
+| `d$` | Delete from the cursor to the end of the line. |
+| `d^` | Delete from the cursor to the beginning of the line. |
+| `u` | Undo the last change. |
+| `Ctrl + r` | Redo an undone change. |
+| `p` | Paste after the cursor. |
+| `P` | Paste before the cursor. |
 
-#### Copier, couper et coller
+#### **Copy, Cut, and Paste**  
 
-| Raccourcis | Description |
+| **Shortcut** | **Description** |
 | --- | --- |
-|`yy`| Copier la ligne courante.|
-|`Y`| Copier du curseur jusqu’à la fin de la ligne.|
-|`yw`|Copier le mot courant.|
-|`p`| Coller après le curseur.|
-|`P`| Coller avant le curseur.|
-|`d`+ mouvement (ex. `dw`)| Couper le texte spécifié.|
+| `yy` | Copy the current line. |
+| `Y` | Copy from the cursor to the end of the line. |
+| `yw` | Copy the current word. |
+| `p` | Paste after the cursor. |
+| `P` | Paste before the cursor. |
+| `d` + movement (e.g., `dw`) | Cut the specified text. |
 
-#### Gestion des fichiers
+#### **File Management**  
 
-| Raccourcis | Description |
+| **Shortcut** | **Description** |
 | --- | --- |
-|`:w`| Sauvegarder le fichier.|
-|`:q`| Quitter Vim.|
-|`:wq` ou `ZZ`| Sauvegarder et quitter.|
-|`:q!`| Quitter sans sauvegarder.|
-|`:e nom_fichier`| Ouvrir un fichier.|
-|`:n`| Passer au fichier suivant (si plusieurs fichiers sont ouverts)|
-|`:!commande`|Exécuter une commande shell (ex. :!ls).|
+| `:w` | Save the file. |
+| `:q` | Quit Vim. |
+| `:wq` or `ZZ` | Save and quit. |
+| `:q!` | Quit without saving. |
+| `:e filename` | Open a file. |
+| `:n` | Switch to the next file (if multiple files are open). |
+| `:!command` | Execute a shell command (e.g., `:!ls`). |
 
-#### Gestion des fenêtres
+#### **Window Management**  
 
-| Raccourcis | Description |
+| **Shortcut** | **Description** |
 | --- | --- |
-|`:split` ou `:sp`| - Diviser la fenêtre horizontalement.|
-|`:vsplit` ou `:vsp`| Diviser la fenêtre verticalement.|
-|`Ctrl + w + h`| Aller à la fenêtre à gauche.|
-|`Ctrl + w + l`| Aller à la fenêtre à droite.|
-|`Ctrl + w + j`| Aller à la fenêtre en dessous.|
-|`Ctrl + w + k`| Aller à la fenêtre au-dessus.|
-|`:close`| Fermer la fenêtre en cours.|
+| `:split` or `:sp` | Split the window horizontally. |
+| `:vsplit` or `:vsp` | Split the window vertically. |
+| `Ctrl + w + h` | Move to the window on the left. |
+| `Ctrl + w + l` | Move to the window on the right. |
+| `Ctrl + w + j` | Move to the window below. |
+| `Ctrl + w + k` | Move to the window above. |
+| `:close` | Close the current window. |
 
-## Nano
- 
- <img src="img/nanonew.jpg" alt="Structure du travail" width="100" align='center'>
+## **Nano**  
 
-### Nano Shortcuts
+<img src="img/nanonew.jpg" alt="Structure du travail" width="100" align='center'>
 
-| Raccourci | Fonction |
+### **Nano Shortcuts**  
+
+| **Shortcut** | **Function** |
 |---|---|
-| `Ctrl + G` | Affiche l'aide de Nano |
-| `Ctrl + X` | Quitte l'éditeur (avec confirmation si des modifications ont été faites) |
-| `Ctrl + O` | Sauvegarde le fichier sans quitter |
-| `Ctrl + R` | Insère un fichier dans le texte en cours |
-| `Ctrl + W` | Recherche un mot ou une phrase dans le fichier |
-| `Ctrl + K` | Coupe la ligne courante |
-| `Ctrl + U` | Colle la dernière ligne coupée |
-| `Ctrl + J` | Justifie le paragraphe (alignement du texte) |
-| `Ctrl + T` | Vérifie l'orthographe (si un correcteur est installé) |
-| `Ctrl + C` | Affiche le numéro de ligne et de colonne du curseur |
-| `Ctrl + _` | Se déplace vers une ligne et une colonne spécifiques |
-| `Alt + U` | Annule la dernière action |
-| `Alt + E` | Refait l’action annulée |
-| `Alt + 6` | Copie la ligne courante |
-| `Alt + V` | Permet de faire défiler l'écran vers le haut |
-| `Alt + ]` | Se déplace vers la prochaine parenthèse fermante `)` ou `]` |
-| `Alt + [` | Se déplace vers la parenthèse ouvrante précédente `(` ou `[` |
+| `Ctrl + G` | Display Nano's help menu. |
+| `Ctrl + X` | Exit the editor (with confirmation if modifications were made). |
+| `Ctrl + O` | Save the file without exiting. |
+| `Ctrl + R` | Insert a file into the current text. |
+| `Ctrl + W` | Search for a word or phrase in the file. |
+| `Ctrl + K` | Cut the current line. |
+| `Ctrl + U` | Paste the last cut line. |
+| `Ctrl + J` | Justify the paragraph (align text). |
+| `Ctrl + T` | Check spelling (if a spell checker is installed). |
+| `Ctrl + C` | Show the cursor’s current line and column number. |
+| `Ctrl + _` | Move to a specific line and column. |
+| `Alt + U` | Undo the last action. |
+| `Alt + E` | Redo the undone action. |
+| `Alt + 6` | Copy the current line. |
+| `Alt + V` | Scroll up the screen. |
+| `Alt + ]` | Move to the next closing parenthesis `)` or `]`. |
+| `Alt + [` | Move to the previous opening parenthesis `(` or `[`. |
 
 ## Bash vs Zsh
 
@@ -328,100 +529,100 @@ Here's how it usually works:
 
 #### Bash (Bourne Again Shell) Introduction
 
-Bash est un interpréteur de commandes utilisé principalement sur les systèmes Unix et Linux. C'est une version améliorée du shell Bourne original (sh) et est désormais l'un des shells les plus populaires dans l'environnement Unix/Linux. Il permet aux utilisateurs d'exécuter des commandes en ligne de commande, d'automatiser des processus via des scripts, et d'interagir efficacement avec le système d'exploitation.
+Bash is a command interpreter mainly used on Unix and Linux systems. It is an improved version of the original Bourne shell (sh) and is now one of the most popular shells in the Unix/Linux environment. It allows users to execute commands in the command line, automate processes via scripts, and interact efficiently with the operating system.
 
 #### Bash Strong Points
 
-* **Les scripts** ✍️  
-  ➝ Bash permet la création de scripts complexes grâce à des structures de contrôle et à sa grande flexibilité. Il permet aussi d'automatiser les tâches répétitives et d'optimiser le flux de travail.
+* **Scripting** ✍️  
+  ➝ Bash enables the creation of complex scripts thanks to control structures and its great flexibility. It also allows the automation of repetitive tasks and workflow optimization.
 
-* **La portabilité** 🌍  
-  ➝ Les scripts de Bash sont portables vers plusieurs distributions Linux et Unix. Cela permet de faciliter la création de solutions universelles pour les développeurs et administrateurs système.
+* **Portability** 🌍  
+  ➝ Bash scripts are portable across multiple Linux and Unix distributions. This makes it easier to create universal solutions for developers and system administrators.
 
-* **Mémoire des commandes** 🧠  
-  ➝ Bash possède des fonctionnalités permettant de compléter automatiquement les commandes, ce qui permet à la fois de gagner du temps et d'éviter les erreurs de saisie. De plus, il garde un historique des commandes précédentes, permettant de les réutiliser.
+* **Command Memory** 🧠  
+  ➝ Bash has features that enable command auto-completion, saving time and reducing typing errors. Additionally, it keeps a history of previous commands, allowing users to reuse them easily.
 
-* **Gestion des processus** ⚙️  
-  ➝ Bash offre la possibilité de gérer les processus d'arrière-plan (les interrompre, les suspendre ou les rediriger), offrant ainsi une meilleure flexibilité.
+* **Process Management** ⚙️  
+  ➝ Bash provides the ability to manage background processes (interrupt, suspend, or redirect them), offering better flexibility.
 
 #### Bash Weak Points
 
-* **Complexité des scripts** 😕  
-  ➝ Si l'utilisation des lignes de commande est assez simple pour les débutants, la compréhension de la syntaxe des scripts et la gestion des erreurs sont assez difficiles à maîtriser pour les débutants.
+* **Script Complexity** 😕  
+  ➝ While using command lines is relatively simple for beginners, understanding script syntax and error handling can be challenging to master.
 
-* **Manque d'interface graphique** 🖥️❌  
-  ➝ Bash est principalement axé sur les lignes de commande et manque cruellement d'interfaces graphiques.
+* **Lack of a Graphical Interface** 🖥️❌  
+  ➝ Bash is primarily command-line oriented and lacks graphical interfaces.
 
-* **Les applications modernes** 📱💻  
-  ➝ Bien qu'il soit performant pour la gestion des fichiers et des processus, il est cependant limité lorsqu'il s'agit d'exécuter ou de gérer les applications modernes nécessitant des environnements plus riches ou spécifiques, comme les interfaces graphiques par exemple.
+* **Modern Applications** 📱💻  
+  ➝ Although it excels at managing files and processes, Bash is limited when it comes to running or managing modern applications that require richer or more specific environments, such as graphical interfaces.
 
 ### About Zsh
 
 #### Zsh Introduction
 
-Zsh est comme Bsh un interpréteur de commandes interactif puissant. Il est utilisé dans les environnements Unix et Linux, et offre une expérience fluide et efficace grâce à ses nombreuses fonctionnalités avancées.
-Il est un shell très apprécié des développeurs et administrateurs systèmes car il permet une navigation rapide et une personnalisation poussée du terminal.
+Like Bash, Zsh is a powerful interactive command interpreter. It is used in Unix and Linux environments and offers a smooth and efficient experience thanks to its many advanced features.  
+It is highly appreciated by developers and system administrators as it allows fast navigation and extensive terminal customization.
 
 #### Zsh Strong Points
 
-* **Autocomplétion intelligente** 🎯  
-  ➝ Suggestions dynamiques pour les commandes et options.
+* **Smart Auto-completion** 🎯  
+  ➝ Dynamic suggestions for commands and options.
 
-* **Correction automatique** 🔍  
-  ➝ Détecte et corrige les fautes de frappe en proposant la bonne commande.
+* **Auto-correction** 🔍  
+  ➝ Detects and corrects typos by suggesting the correct command.
 
-* **Personnalisation avancée** 🎨  
-  ➝ Thèmes et plugins via **Oh My Zsh** pour un terminal optimisé et stylé.
+* **Advanced Customization** 🎨  
+  ➝ Themes and plugins via **Oh My Zsh** for an optimized and stylish terminal.
 
-* **Gestion améliorée de l’historique** 📜  
-  ➝ Recherche rapide des commandes précédentes et suppression des doublons.
+* **Enhanced Command History Management** 📜  
+  ➝ Quick search for previous commands and removal of duplicates.
 
-* **Navigation ultra-rapide** 🚀  
-  ➝ Plugin **z** pour accéder instantanément aux dossiers les plus utilisés.
+* **Ultra-fast Navigation** 🚀  
+  ➝ **z** plugin for instant access to the most frequently used directories.
 
-* **Alias et raccourcis puissants** ⚡  
-  ➝ Création de commandes courtes pour accélérer l’exécution des tâches.
+* **Powerful Aliases and Shortcuts** ⚡  
+  ➝ Create short commands to speed up task execution.
 
-* **Compatibilité avec Bash** 🔄  
-  ➝ Exécute sans problème les scripts Bash existants.
+* **Bash Compatibility** 🔄  
+  ➝ Runs existing Bash scripts without issues.
 
-* **Séparation des chemins `$PATH`** 📁  
-  ➝ `$PATH` est géré sous forme de tableau (`$path`), ce qui facilite la gestion.
+* **Separated `$PATH` Management** 📁  
+  ➝ `$PATH` is handled as an array (`$path`), making it easier to manage.
 
 #### Zsh Weak Points
 
-* **Consommation de ressources plus élevée** 🖥️  
-  ➝ Plus gourmand en mémoire que Bash, surtout avec **Oh My Zsh** et plusieurs plugins activés.  
+* **Higher Resource Consumption** 🖥️  
+  ➝ More memory-intensive than Bash, especially with **Oh My Zsh** and multiple plugins enabled.
 
-* **Temps de démarrage plus long** ⏳  
-  ➝ Peut ralentir au lancement si trop de plugins ou thèmes lourds sont chargés.  
+* **Longer Startup Time** ⏳  
+  ➝ Can slow down on launch if too many heavy plugins or themes are loaded.
 
-* **Compatibilité imparfaite avec certains scripts** ⚠️  
-  ➝ Certains scripts écrits spécifiquement pour Bash peuvent nécessiter des ajustements.  
+* **Imperfect Compatibility with Some Scripts** ⚠️  
+  ➝ Some scripts specifically written for Bash may require adjustments.
 
-* **Configuration plus complexe** 🔧  
-  ➝ Nécessite plus de personnalisation pour en tirer pleinement parti.  
+* **More Complex Configuration** 🔧  
+  ➝ Requires more customization to fully take advantage of its features.
 
-* **Dépendance à Oh My Zsh pour les débutants** 🏗️  
-  ➝ Beaucoup de fonctionnalités populaires nécessitent des frameworks supplémentaires.  
+* **Dependency on Oh My Zsh for Beginners** 🏗️  
+  ➝ Many popular features require additional frameworks.
 
-* **Moins de support natif sur certains systèmes** 📦  
-  ➝ Pas installé par défaut sur toutes les distributions Linux et macOS (nécessite une installation manuelle).  
+* **Less Native Support on Some Systems** 📦  
+  ➝ Not installed by default on all Linux distributions and macOS (requires manual installation).
 
-* **Apprentissage plus long pour les débutants** 📘  
-  ➝ De nombreuses options et commandes avancées peuvent être déroutantes au début.  
+* **Longer Learning Curve for Beginners** 📘  
+  ➝ Many advanced options and commands can be overwhelming at first.
 
-* **Risque de conflits avec Bash** 🔄  
-  ➝ Peut entraîner des erreurs si certaines configurations Bash sont incompatibles avec Zsh.  
+* **Potential Conflicts with Bash** 🔄  
+  ➝ Can cause errors if some Bash configurations are incompatible with Zsh.
 
-* **Moins de documentation et de support en ligne que Bash** 🌐  
-  ➝ La majorité des tutoriels et solutions en ligne sont orientés vers Bash.  
+* **Less Online Documentation and Support than Bash** 🌐  
+  ➝ Most tutorials and online solutions are geared towards Bash.
 
-### Comparison : Bash vs Zsh  
+### Comparison: Bash vs Zsh  
 
-Bash et Zsh sont deux des **interpréteurs de commandes** les plus populaires sous Unix et Linux.  
-Ils permettent tous deux d’exécuter des commandes, de naviguer dans les fichiers et d’automatiser des tâches via des scripts.  
-Cependant, bien qu’ils partagent des bases communes, leurs différences en termes de **fonctionnalités, personnalisation et performances** peuvent influencer le choix de l’utilisateur.  
+Bash and Zsh are two of the most popular **command interpreters** on Unix and Linux.  
+Both allow users to execute commands, navigate files, and automate tasks through scripts.  
+However, despite their shared foundations, their differences in **features, customization, and performance** can influence a user's choice.
 
 #### Main Functions
 

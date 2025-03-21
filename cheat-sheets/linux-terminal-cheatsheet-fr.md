@@ -48,11 +48,12 @@ Voici le Processus global lorsque vous tapez une commande:
 * [Installation](#installation)
 * [Configuration](#configuration)
   * [Bash et Zsh](#bash-and-zsh)
-  * [Vim and Nano](#vim-and-nano)
+  * [Vim and Nano](#vim-et-nano)
     * [Configuration Vim](#configuring-vim)
-    * [Configuration Nano](#configuring-nano)
+    * [Configuration Nano](#configuration-de-nano)
 
-## Terminal 
+## Terminal
+
  <img src="img/Untitled.jpeg" alt="Structure du travail" width="100" align='center'> 
 
 ### Raccourcis Terminal  
@@ -160,6 +161,7 @@ Voici le Processus global lorsque vous tapez une commande:
 | `sudo apt remove <paquet>` | Désinstalle un logiciel |
 
 ## Bash 
+
 <img src="img/Bash.png" alt="Structure du travail" width="100" align='center'> 
 
 ### Raccourcis Bash
@@ -198,7 +200,8 @@ Voici le Processus global lorsque vous tapez une commande:
 | `exec <commande>` | Remplace le processus actuel par un autre sans créer un nouveau shell |
 | `test <condition>` | Évalue une condition (ex : comparaison de chaînes, fichiers) |
 
-## Zsh 
+## Zsh
+
 <img src="img/Zsh.png" alt="Structure du travail" width="100" align='center'>
 
 ### Raccourcis Zsh
@@ -234,7 +237,8 @@ Voici le Processus global lorsque vous tapez une commande:
 | `cat nom du fichier`  | Afficher le contenu d'un fichier |
 | `nano nom du fichier`  | Éditer un fichier avec Nano |
 
-## Vim 
+## Vim
+
 <img src="img/VIM.png" alt="Structure du travail" width="100" align='center'>
 
 ### Raccourcis Vim
@@ -292,6 +296,7 @@ Voici le Processus global lorsque vous tapez une commande:
 |`:close`| Fermer la fenêtre en cours.|
 
 ## Nano
+ 
  <img src="img/nanonew.jpg" alt="Structure du travail" width="100" align='center'>
 
 ### Raccourcis Nano

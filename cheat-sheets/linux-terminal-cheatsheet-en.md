@@ -59,54 +59,54 @@ Here's how it usually works:
 
 ### Terminal Shortcuts
 
-#### 📌 Contrôles de base
+#### 📌 Basic Control
 
-| Raccourci | Description |
+| Shortcut | Description |
 |-----------|-------------|
-| `Ctrl + C` | Arrête le processus en cours |
-| `Ctrl + Z` | Suspend le processus en cours |
-| `Ctrl + D` | Ferme le terminal ou termine une session |
-| `Ctrl + L` | Efface l'écran du terminal (équivalent de la commande `clear`) |
+| `Ctrl + C` | Stops the current process |
+| `Ctrl + Z` | Suspends the current process |
+| `Ctrl + D` | Closes the terminal |
+| `Ctrl + L` | Clears the terminal screen (equivalent to `clear`) |
 
-#### 🕵️ Navigation dans les commandes
+#### 🕵️ Command Navigation
 
-| Raccourci | Description |
+| Shortcut | Description |
 |-----------|-------------|
-| `Ctrl + A` | Déplace le curseur au début de la ligne |
-| `Ctrl + E` | Déplace le curseur à la fin de la ligne |
-| `Ctrl + U` | Supprime tout avant le curseur |
-| `Ctrl + K` | Supprime tout après le curseur |
-| `Ctrl + W` | Supprime le mot avant le curseur |
-| `Alt + B` | Déplace le curseur d'un mot en arrière |
-| `Alt + F` | Déplace le curseur d'un mot en avant |
+| `Ctrl + A` | Moves the cursor to the beginning of the line |
+| `Ctrl + E` | Moves the cursor to the end of the line |
+| `Ctrl + U` | Deletes everything before the cursor |
+| `Ctrl + K` | Deletes everything after the cursor |
+| `Ctrl + W` | Deletes the word before the cursor |
+| `Alt + B` | Moves the cursor back one word |
+| `Alt + F` | Moves the cursor forward one word |
 
-#### 🔄 Historique des commandes
+#### 🔄 Command History
 
-| Raccourci | Description |
+| Shortcut | Description |
 |-----------|-------------|
-| `Ctrl + R` |  Recherche une commande dans l'historique interactif |
-| `↑` / `↓` | Navigue dans l'historique des commandes |
-| `!n` | Exécute la commande numéro `n` de l'historique |
-| `!!` | Réexécute la dernière commande |
-| `!string` | Exécute la dernière commande contenant `string` |
+| `Ctrl + R` | Searches a command in the interactive history |
+| `↑` / `↓` | Navigates through command history |
+| `!n` | Executes command number `n` from the history |
+| `!!` | Re-executes the last command |
+| `!string` | Executes the last command containing `string` |
 
-#### 📂 Manipulation des fenêtres de terminal
+#### 📂 Managing Terminal Windows
 
-| Raccourci | Description |
+| Shortcut | Description |
 |-----------|-------------|
-| `Ctrl + Shift + T` | Ouvre un nouvel onglet dans le terminal |
-| `Ctrl + Shift + W` | Ferme l'onglet actuel |
-| `Ctrl + Shift + N` | Ouvre une nouvelle fenêtre de terminal |
-| `Ctrl + PageUp/PageDown` | Change d'onglet |
+| `Ctrl + Shift + T` | Opens a new tab in the terminal |
+| `Ctrl + Shift + W` | Closes the current tab |
+| `Ctrl + Shift + N` | Opens a new terminal window |
+| `Ctrl + PageUp/PageDown` | Switches between tabs |
 
-#### 📑 Autres astuces utiles
+#### 📑 Other Useful Tips
 
-| Raccourci | Description |
+| Shortcut | Description |
 |-----------|-------------|
-| `Tab` | Auto-complétion de la commande |
-| `Ctrl + Shift + C` | Copie du texte sélectionné |
-| `Ctrl + Shift + V` | Colle du texte copié |
-| `Alt + .` | Répète le dernier argument de la commande précédente |
+| `Tab` | Auto-completes the command |
+| `Ctrl + Shift + C` | Copies selected text |
+| `Ctrl + Shift + V` | Pastes copied text |
+| `Alt + .` | Repeats the last argument of the previous command |
 
 ### Terminal Commands
 

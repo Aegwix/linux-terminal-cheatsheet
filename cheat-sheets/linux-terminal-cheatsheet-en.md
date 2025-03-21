@@ -110,56 +110,56 @@ Here's how it usually works:
 
 ### Terminal Commands
 
-#### 📂 Fichiers et Dossiers
+#### 📂 Files and Directories
 
-| Commande | Description |
+| Command | Description |
 |----------|-------------|
-| `ls` | Liste les fichiers |
-| `cd <dossier>` | Change de répertoire |
-| `pwd` | Affiche le répertoire actuel |
-| `mkdir <nom>` | Crée un dossier |
-| `rm -r <nom>` | Supprime un fichier/dossier |
-| `cp <source> <dest>` | Copie un fichier/dossier |
-| `mv <source> <dest>` | Déplace ou renomme |
+| `ls` | Lists files |
+| `cd <directory>` | Changes directory |
+| `pwd` | Displays the current directory |
+| `mkdir <name>` | Creates a directory |
+| `rm -r <name>` | Deletes a file/directory |
+| `cp <source> <dest>` | Copies a file/directory |
+| `mv <source> <dest>` | Moves or renames a file/directory |
 
-#### 📜 Affichage et Édition de Fichiers
+#### 📜 Viewing and Editing Files
 
-| Commande | Description |
+| Command | Description |
 |----------|-------------|
-| `cat <fichier>` | Affiche le contenu |
-| `less <fichier>` | Lecture paginée |
+| `cat <file>` | Displays file content |
+| `less <file>` | Paged reading |
 
-#### 🔍 Recherche
+#### 🔍 Searching
 
-| Commande | Description |
+| Command | Description |
 |----------|-------------|
-| `find <dossier> -name <nom>` | Recherche un fichier |
-| `grep <mot> <fichier>` | Recherche un mot dans un fichier |
+| `find <directory> -name <name>` | Searches for a file |
+| `grep <word> <file>` | Searches for a word in a file |
 
-#### 📡 Réseau
+#### 📡 Network
 
-| Commande | Description |
+| Command | Description |
 |----------|-------------|
-| `ping <adresse>` | Vérifie la connexion |
-| `wget <URL>` | Télécharge un fichier |
-| `curl <URL>` | Récupère une page web |
+| `ping <address>` | Checks connection |
+| `wget <URL>` | Downloads a file |
+| `curl <URL>` | Retrieves a web page |
 
-#### 🛑 Système
+#### 🛑 System
 
-| Commande | Description |
+| Command | Description |
 |----------|-------------|
-| `shutdown -h now` | Arrête le système |
-| `reboot` | Redémarre le système |
-| `df -h` | Espace disque disponible |
-| `free -h` | Mémoire utilisée |
+| `shutdown -h now` | Shuts down the system |
+| `reboot` | Reboots the system |
+| `df -h` | Shows available disk space |
+| `free -h` | Displays used memory |
 
-#### 📦 Gestion des Paquets (Ubuntu/Debian)
+#### 📦 Package Management (Ubuntu/Debian)
 
-| Commande | Description |
+| Command | Description |
 |----------|-------------|
-| `sudo apt update && apt upgrade` | Met à jour le système |
-| `sudp apt install <paquet>` | Installe un logiciel |
-| `sudo apt remove <paquet>` | Désinstalle un logiciel |
+| `sudo apt update && apt upgrade` | Updates the system |
+| `sudo apt install <package>` | Installs a software package |
+| `sudo apt remove <package>` | Uninstalls a software package |
 
 ## Bash
 
